@@ -6,7 +6,7 @@ I use both RSpec and Test/Unit and the accompanying autospec and autotest. I was
 
 Trick is to only require redgreen/autotest if the RSPEC environmental variable is not set. Here is my ~/.autotest:
 
-<pre><code>
+{% highlight ruby %}
 require 'autotest/fsevent'
 require 'autotest/growl'
 require 'redgreen/autotest' unless ENV['RSPEC']
@@ -27,4 +27,4 @@ Autotest.add_hook :initialize do |at|
   
   at.add_mapping(%r%^spec/(processors|mailers|middlewares)/.*rb$%) { |filename, _| filename }
 end
-</code></pre>
+{% endhighlight %}
