@@ -1,4 +1,4 @@
-auto: true
+auto: false
 permalink: pretty
 pygments: true
 lsi: false
