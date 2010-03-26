@@ -132,13 +132,13 @@ ul.posts {
         color: #8085C1;
       }
 
-    .site .footer .rss {
+    .site .footer .feed {
       margin-top: 1.1em;
       margin-right: -.2em;
       float: right;
     }
 
-      .site .footer .rss img {
+      .site .footer .feed img {
         border: 0;
       }
 
