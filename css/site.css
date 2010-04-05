@@ -178,30 +178,6 @@ h3#recent-posts {
     margin-top: 6px;
     margin-bottom: 0.8em;
 }
-ul#elsewhere {
-    list-style: none;
-    margin-left: 0;
-}
-ul#elsewhere li {
-    padding-bottom: 1.3em;
-}
-ul#elsewhere li span.meta {
-    color: #777;
-}
-ul#elsewhere li span.meta a {
-    border-bottom: none;
-    color: #777;
-}
-ul#elsewhere li:hover span.meta a {
-    color: {{ page.plinks }};
-    border-bottom: 1px dotted #777;
-}
-ul#elsewhere li:hover span.meta a:hover {
-    color: #fff;
-}
-
-
-
 
 /* paginator */
 .paginator {
