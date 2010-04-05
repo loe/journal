@@ -1,4 +1,14 @@
+# accessible as site.*
+title: "W. Andrew Loe III: Journal"
+description: "W. Andrew Loe III: Journal"
+url: "http://journal.andrewloe.com"
+files: "http://journal.andrewloe.com/files/" 
+author: "W. Andrew Loe III"
+email: "andrew@andrewloe.com"
+
+server: true
 auto: true
 permalink: pretty
 pygments: true
 lsi: false
+markdown: rdiscount

@@ -1,54 +1,70 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
-   <meta name="author" content="W. Andrew Loe III" />
-   <link href="http://feeds.feedburner.com/WALoeIII-Journal" rel="alternate" title="W. Andrew Loe III" type="application/atom+xml" />
+{% include header.html %}
+<div id="nav">
+  <h1><a href="/">{{ site.title }}</a></h1>
 
-   <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+  <ul>
+    <li><a href="/archive/">Archive</a></li>
+    <li><a href="/about/">About</a></li>
+    <li><a href="/atom.xml">Atom</a></li>
+  </ul>
 
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-</head>
-<body>
+  <h3>search</h3>
+  <form method="get" action="http://www.google.com/search">
+    <input type="text" id="search" class="ti" name="q" value="" />
+    <input type="hidden" name="q" value="site:journal.andrewloe.com" />
+    <input type="submit" value="Search" />
+  </form>
 
-<div class="site">
-  <div class="title">
-    <a href="/">W. Andrew Loe III</a>
-    <a class="extra" href="/">home</a>
-  </div>
-  
-  {{ content }}
-  
-  <div class="footer">
-    <div class="contact">
-      <p>
-        W. Andrew Loe III<br />
-        andrew@andrewloe.com
-      </p>
-    </div>
-    <div class="feed">
-      <a href="http://feeds.feedburner.com/WALoeIII-Journal">
-        <img src="/images/feed.png" height="32" width="32" alt="Subscribe to Feed" />
-      </a>
-    </div>
-  </div>
+  <h3>about me</h3>
+  <p>I am a web developer at 
+    <a href="http://onehub.com">Onehub</a>. I like sailing, snowboarding, and computers.</p>
+
+    <h3>more me</h3>
+
+    <ul>
+      <li>
+        <a href="http://github.com/loe">
+          GitHub
+          <span>Take notes on my moves!</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://twitter.com/WALoeIII">
+          Twitter 
+          <span>Ramblings...</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://www.facebook.com/WALoeIII">
+          Facebook
+          <span>Its not real unless it's on facebook.<span>
+          </a>
+      </li>
+      <li>
+      <a href="http://www.linkedin.com/in/WALoeIII">
+        LinkedIn
+        <span>Keeping the man informed.<span>
+        </a>
+      </li>
+      <li>
+        <a href="http://onehub.com/">
+          Onehub
+          <span>File Transfer and Online Collaboration!</span>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:andrew@andrewloe.com">
+          Email
+          <span>It still works!</span>
+        </a>
+      </li>
+    </ul>
+
 </div>
 
-<!-- Google Analytics -->
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-1702281-1");
-pageTracker._setDomainName(".andrewloe.com");
-pageTracker._setAllowLinker(true);
-pageTracker._trackPageview();
-</script>
-<!-- Google Analytics end -->
+<div id="content">
 
-</body>
-</html>
+  {{ content }}
+
+</div>
+{% include footer.html %}
