@@ -4,7 +4,7 @@ url: "http://journal.andrewloe.com"
 author: "W. Andrew Loe III"
 email: "andrew@andrewloe.com"
 
-auto: false
+auto: true
 permalink: pretty
 pygments: true
 lsi: false
