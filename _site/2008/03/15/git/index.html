@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Git &mdash; W. Andrew Loe III: Journal</title>
+  <meta name="author" content="Jon Smajda" />
+  <meta name="generator" content="jekyll" />
+ 
+  <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen, projection">
+ 
+  <link href="/atom.xml" rel="alternate" title="Jon Smajda's Atom Feed" type="application/atom+xml" />
+</head>
+<body>
+<div id="nav">
+  <h1><a href="/">W. Andrew Loe III: Journal</a></h1>
+
+  <ul>
+    <li><a href="/archive/">Archive</a></li>
+    <li><a href="/about/">About</a></li>
+    <li><a href="/atom.xml">Feed</a></li>
+  </ul>
+
+  <h3>search</h3>
+  <form method="get" action="http://www.google.com/search">
+    <input type="text" id="search" class="ti" name="q" value="" />
+    <input type="hidden" name="q" value="site:journal.andrewloe.com" />
+    <input type="submit" value="Search" />
+  </form>
+
+  <h3>about me</h3>
+  <p>I am a web developer at 
+    <a href="http://onehub.com">Onehub</a>. I like sailing, snowboarding, and computers.</p>
+
+    <h3>more me</h3>
+
+    <ul>
+      <li>
+        <a href="http://github.com/loe">
+          GitHub
+          <span>Take notes on my moves!</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://twitter.com/WALoeIII">
+          Twitter 
+          <span>Ramblings...</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://www.facebook.com/WALoeIII">
+          Facebook
+          <span>Its not real unless it's on facebook.<span>
+          </a>
+      </li>
+      <li>
+      <a href="http://www.linkedin.com/in/WALoeIII">
+        LinkedIn
+        <span>Keeping the man informed.<span>
+        </a>
+      </li>
+      <li>
+        <a href="http://onehub.com/">
+          Onehub
+          <span>File Transfer and Online Collaboration!</span>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:andrew@andrewloe.com">
+          Email
+          <span>It still works!</span>
+        </a>
+      </li>
+    </ul>
+
+</div>
+
+<div id="content">
+
+  <div class="post">
+
+    <h2>Git</h2>
+
+    <p class="pubdate">Posted on Saturday, March 15, 2008</p>
+
+    I've been experimenting with <a href="http://git.or.cz/">Git</a> for source control management (SCM), I'm really starting to appreciate the benefits of the distributed features it provides. The <a href="http://www.kernel.org/pub/software/scm/git/docs/user-manual.html">User's Manual</a> is very comprehensive, and the <a href="http://git.or.cz/course/svn.html">SVN -> Git crash course</a> was excellent in getting me up to speed. <a href="http://www.simplisticcomplexity.com/">Simplistic Complexity</a> provides an awesome <a href="http://www.simplisticcomplexity.com/2008/03/05/cleanly-migrate-your-subversion-repository-to-a-git-repository/">SVN to Git Migration Guide</a> that helped me split my monolithic subversion repository into a series of lean git trees. Although git is relatively new, there is some pretty good support for hooking it into existing tools like <a href="http://www.redmine.org/">Redmine</a>, which has support for git in its latest trunk. Hopefully I will be able to convert some of my co-workers soon, but until then I'm going to be using a <a href="http://andy.delcambre.com/2008/3/4/git-svn-workflow">hybrid workflow of git and subversion</a>, mostly facilitated by git-svn.
+
+Update:
+I've been playing with <a href="http://eagain.net/gitweb/?p=gitosis.git;a=summary">gitosis</a> for managing "push" repositories that I can share with others or use to deploy with <a href="http://www.capify.org/">capistrano</a>. The program requires you have <a href="http://kimmo.suominen.com/docs/ssh/">SSH setup</a> perfectly, and there are a few caveats (read: must use ssh on port 22 to deploy with capistrano), but its very simple once you <a href="http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way">get it working</a>. I really like how access to your repositories is done with public SSH keys. <a href="http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way">Scie.nti.st</a> has more.
+
+Another Update:
+I secured a <a href="http://github.com/">GitHub</a> beta invite and was able to successfully push all of my repositories there. <a href="http://github.com/">GitHub</a> also has some great documentation on <a href="http://github.com/guides/deploying-with-capistrano">deploying with capistrano and github</a> which enabled me to re-deploy all of my applications to my server using git. As a side-benefit I now also have all my <a href="http://mongrel.rubyforge.org/">mongrels</a> running as an unprivileged user.
+
+</div>
+
+<div class="paginator">
+  
+    <div class="previous">&larr; <a class="previous" href="/2008/03/08/718-10th-ave-east-2/" title="Previous post: 718 10th Ave East #2">718 10th Ave East #2</a></div>
+  
+  
+  
+    <div class="next"><a class="next" href="/2008/03/21/traffic-jam-shockwave/" title="Next post: Traffic Jam Shockwave">Traffic Jam Shockwave</a> &rarr;</div>
+  
+</div>
+
+
+</div>
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  var pageTracker = _gat._getTracker("UA-1702281-1");
+  pageTracker._setDomainName(".andrewloe.com");
+  pageTracker._setAllowLinker(true);
+  pageTracker._trackPageview();
+</script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Sony's Rootkit: the untold problem &mdash; W. Andrew Loe III: Journal</title>
+  <meta name="author" content="Jon Smajda" />
+  <meta name="generator" content="jekyll" />
+ 
+  <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen, projection">
+ 
+  <link href="/atom.xml" rel="alternate" title="Jon Smajda's Atom Feed" type="application/atom+xml" />
+</head>
+<body>
+<div id="nav">
+  <h1><a href="/">W. Andrew Loe III: Journal</a></h1>
+
+  <ul>
+    <li><a href="/archive/">Archive</a></li>
+    <li><a href="/about/">About</a></li>
+    <li><a href="/atom.xml">Feed</a></li>
+  </ul>
+
+  <h3>search</h3>
+  <form method="get" action="http://www.google.com/search">
+    <input type="text" id="search" class="ti" name="q" value="" />
+    <input type="hidden" name="q" value="site:journal.andrewloe.com" />
+    <input type="submit" value="Search" />
+  </form>
+
+  <h3>about me</h3>
+  <p>I am a web developer at 
+    <a href="http://onehub.com">Onehub</a>. I like sailing, snowboarding, and computers.</p>
+
+    <h3>more me</h3>
+
+    <ul>
+      <li>
+        <a href="http://github.com/loe">
+          GitHub
+          <span>Take notes on my moves!</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://twitter.com/WALoeIII">
+          Twitter 
+          <span>Ramblings...</span>
+        </a>
+      </li>
+      <li>
+        <a href="http://www.facebook.com/WALoeIII">
+          Facebook
+          <span>Its not real unless it's on facebook.<span>
+          </a>
+      </li>
+      <li>
+      <a href="http://www.linkedin.com/in/WALoeIII">
+        LinkedIn
+        <span>Keeping the man informed.<span>
+        </a>
+      </li>
+      <li>
+        <a href="http://onehub.com/">
+          Onehub
+          <span>File Transfer and Online Collaboration!</span>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:andrew@andrewloe.com">
+          Email
+          <span>It still works!</span>
+        </a>
+      </li>
+    </ul>
+
+</div>
+
+<div id="content">
+
+  <div class="post">
+
+    <h2>Sony's Rootkit: the untold problem</h2>
+
+    <p class="pubdate">Posted on Tuesday, November 15, 2005</p>
+
+    The whole <a href="http://news.com.com/FAQ+Sonys+rootkit+CDs/2100-1029_3-5946760.html">Sony debacle</a> has been well documented over the last few days. What bugs me more is how <a href="http://microsoft.com/">Microsoft</a> is dealing with the threat. Instead of attacking the root of the problem, they have stated in <a href="http://blogs.technet.com/antimalware/archive/2005/11/12/414299.aspx">a blog post</a> that they will be <a href="http://blogs.technet.com/antimalware/archive/2005/11/12/414299.aspx">removing the rootkit</a> with their <a href="http://www.microsoft.com/athome/security/spyware/software">AntiSpyware Tool</a>. Why is this an issue? Microsoft's approach is wrong. Their entire approach to security is, and this issue does nothing but affirm that. It shouldn't be possible to install the Sony rootkit. Yes it is possible to install rootkits through buffer overflows and other shady methods, but these are MUCH more difficult install; consequently, they are much less frequent. The Sony rootkit is passively installed by the user when they run the CD, why isn't the user notified of this, not even asked for their password in order to modify system files? This problem would never happen on OS X because it would ask the user for their password - something that shouldn't happen when playing a standard audio CD. This minor difference in approaching security is a big part of why OS X has fewer security issues. Windows might be more securely coded than OS X (fewer buffer overflows etc.) but it invites exploits. I wish the trust everyone architecture could change overnight, it would solve most of the issues we face with the internet. 
+
+
+</div>
+
+<div class="paginator">
+  
+    <div class="previous">&larr; <a class="previous" href="/2005/11/12/lsu-wins-again/" title="Previous post: LSU wins again!">LSU wins again!</a></div>
+  
+  
+  
+    <div class="next"><a class="next" href="/2005/11/16/steadman/" title="Next post: Steadman">Steadman</a> &rarr;</div>
+  
+</div>
+
+
+</div>
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  var pageTracker = _gat._getTracker("UA-1702281-1");
+  pageTracker._setDomainName(".andrewloe.com");
+  pageTracker._setAllowLinker(true);
+  pageTracker._trackPageview();
+</script>
+</body>
+</html>

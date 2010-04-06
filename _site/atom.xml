@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>W. Andrew Loe III: Journal</title>
+ <link href="http://journal.andrewloe.com/atom.xml" rel="self"/>
+ <link href="http://journal.andrewloe.com"/>
+ <link rel="license" type="/application/rdf+xml" href="http://creativecommons.org/licenses/by-nc-sa/3.0/rdf" />
+ <updated>2010-04-05T22:13:35-07:00</updated>
+ <id>http://journal.andrewloe.com</id>
+ <author>
+     <name>W. Andrew Loe III</name>
+     <email>andrew@andrewloe.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Let's Go Get Lost</title>
+   <link href="http://journal.andrewloe.com//2010/03/03/let-s-go-get-lost/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2010-03-03T00:00:00-08:00</updated>
+   <id>http://journal.andrewloe.com//2010/03/03/let-s-go-get-lost</id>
+   <content type="html">&lt;object width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/_WZjOcoCWdk&amp;hl=en_US&amp;fs=1&amp;hd=1&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/_WZjOcoCWdk&amp;hl=en_US&amp;fs=1&amp;hd=1&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+
+The incredibly catchy tune is Sushi by Kyle Andrews.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Aspen Extreme</title>
+   <link href="http://journal.andrewloe.com//2010/03/03/aspen-extreme/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2010-03-03T00:00:00-08:00</updated>
+   <id>http://journal.andrewloe.com//2010/03/03/aspen-extreme</id>
+   <content type="html">&lt;p&gt;BS 360:&lt;br /&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2010-02-26/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2010-02-26/KIF3400/823347308_5qR7w-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Nucci&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Nucci getting a sweet nose press:&lt;br /&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2010-01-31/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2010-01-31/KIF3144/823351179_Wku3k-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Nucci&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>redgreen with autotest and autospec</title>
+   <link href="http://journal.andrewloe.com//2010/01/28/redgreen-with-autotest-and-autospec/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2010-01-28T00:00:00-08:00</updated>
+   <id>http://journal.andrewloe.com//2010/01/28/redgreen-with-autotest-and-autospec</id>
+   <content type="html">I use both RSpec and Test/Unit and the accompanying autospec and autotest. I was struggling to get coloring for both without breakage.
+
+Trick is to only require redgreen/autotest if the RSPEC environmental variable is not set. Here is my ~/.autotest:
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Send me files!</title>
+   <link href="http://journal.andrewloe.com//2010/01/04/send-me-files/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2010-01-04T00:00:00-08:00</updated>
+   <id>http://journal.andrewloe.com//2010/01/04/send-me-files</id>
+   <content type="html">New project I'm working on.
+
+&lt;script src=&quot;//x.onehub.com/dropboxes/obpwd36o/drops/new.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&lt;span class=&quot;powered_by_onehub&quot;&gt;Powered by &lt;a href=&quot;http://onehub.com/&quot;&gt;Onehub&lt;/a&gt;&lt;/span&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Happy New Year!</title>
+   <link href="http://journal.andrewloe.com//2010/01/02/happy-new-year/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2010-01-02T00:00:00-08:00</updated>
+   <id>http://journal.andrewloe.com//2010/01/02/happy-new-year</id>
+   <content type="html">I shall endeavor to return to traditional blogging this year. I have been very busy on &lt;a href=&quot;http://twitter.com/waloeiii&quot;&gt;Twitter.com/WALoeIII&lt;/a&gt; recently.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>505 Worlds</title>
+   <link href="http://journal.andrewloe.com//2009/08/24/505-worlds/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2009-08-24T00:00:00-07:00</updated>
+   <id>http://journal.andrewloe.com//2009/08/24/505-worlds</id>
+   <content type="html">&lt;object width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/X5qY7FM1Lao&amp;hl=en&amp;fs=1&amp;hd=1&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/X5qY7FM1Lao&amp;hl=en&amp;fs=1&amp;hd=1&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+
+Good luck &lt;a href=&quot;http://johnloe.com/&quot;&gt;John&lt;/a&gt; &amp; Craig!
+</content>
+ </entry>
+ 
+ <entry>
+   <title>N00b Boyfriend</title>
+   <link href="http://journal.andrewloe.com//2009/08/20/n00b-boyfriend/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2009-08-20T00:00:00-07:00</updated>
+   <id>http://journal.andrewloe.com//2009/08/20/n00b-boyfriend</id>
+   <content type="html">&lt;a href=&quot;http://www.collegehumor.com/video:1917993&quot;&gt;http://www.collegehumor.com/video:1917993&lt;/a&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Sensational!</title>
+   <link href="http://journal.andrewloe.com//2009/07/22/sensational/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2009-07-22T00:00:00-07:00</updated>
+   <id>http://journal.andrewloe.com//2009/07/22/sensational</id>
+   <content type="html">&lt;object width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/HxN33qW-n4E&amp;hl=en&amp;fs=1&amp;&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/HxN33qW-n4E&amp;hl=en&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ssh + pv + mysql</title>
+   <link href="http://journal.andrewloe.com//2009/05/12/ssh-pv-mysql/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2009-05-12T00:00:00-07:00</updated>
+   <id>http://journal.andrewloe.com//2009/05/12/ssh-pv-mysql</id>
+   <content type="html">This is a good one courtesy of &lt;a href=&quot;http://wuputah.com/&quot;&gt;Jonathan Dance&lt;/a&gt;.
+
+@ ssh -C gateway ssh -C database-server mysqldump -u root -pPASSWORD database | pv | mysql -u root database @
+
+The @-C@ flag does ssh compression.
+</content>
+ </entry>
+ 
+ <entry>
+   <title>pv + gzip + mysql</title>
+   <link href="http://journal.andrewloe.com//2009/05/12/pv-gzip-mysql/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2009-05-12T00:00:00-07:00</updated>
+   <id>http://journal.andrewloe.com//2009/05/12/pv-gzip-mysql</id>
+   <content type="html">I am writing this down for my own benefit:
+
+Dumping with on-the-fly gzip and speed indicator.
+
+@ $ mysqldump -u root -p database | pv | gzip -c &gt; database.sql.gz @
+
+Loading with on-the-fly gunzip and speed indicator.
+
+@ $ pv database.sql.gz | gunzip | mysql -u root -p database @
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Niskeo: Day 5</title>
+   <link href="http://journal.andrewloe.com//2009/03/30/niskeo-day-5/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2009-03-30T00:00:00-07:00</updated>
+   <id>http://journal.andrewloe.com//2009/03/30/niskeo-day-5</id>
+   <content type="html">&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-28/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-28/P3280253/823337374_Ptsbn-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Nucci&quot; /&gt;&lt;/a&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Niseko: Day 4</title>
+   <link href="http://journal.andrewloe.com//2009/03/27/niseko-day-4/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2009-03-27T00:00:00-07:00</updated>
+   <id>http://journal.andrewloe.com//2009/03/27/niseko-day-4</id>
+   <content type="html">&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-27/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-27/P3270180/823337969_gVRGK-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Buddies&quot; /&gt;&lt;/a&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Niseko: Day 3</title>
+   <link href="http://journal.andrewloe.com//2009/03/26/niseko-day-3/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2009-03-26T00:00:00-07:00</updated>
+   <id>http://journal.andrewloe.com//2009/03/26/niseko-day-3</id>
+   <content type="html">&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-26/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-26/KIF2773/823338891_h8ama-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Spin to win!&quot; /&gt;&lt;/a&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Niseko: Day 2</title>
+   <link href="http://journal.andrewloe.com//2009/03/25/niseko-day-2/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2009-03-25T00:00:00-07:00</updated>
+   <id>http://journal.andrewloe.com//2009/03/25/niseko-day-2</id>
+   <content type="html">&lt;p&gt;Pow Slash!&lt;br /&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-25/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-25/KIF2747/823591735_rt4rz-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Slash&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Niseko: Day 1</title>
+   <link href="http://journal.andrewloe.com//2009/03/25/niseko-day-1/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2009-03-25T00:00:00-07:00</updated>
+   <id>http://journal.andrewloe.com//2009/03/25/niseko-day-1</id>
+   <content type="html">&lt;p&gt;Japan grab in Japan!&lt;br /&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-24/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-24/KIF2714/823328411_pJQTK-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Japan in Japan!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
