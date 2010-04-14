@@ -143,13 +143,13 @@ end
 
 module Bundler
   LOCKED_BY    = '0.9.13'
-  FINGERPRINT  = "b82a32e063edc402ae95fa486ad53c49b0945108"
-  AUTOREQUIRES = {:default=>[["rack-jekyll", false]]}
+  FINGERPRINT  = "24b13d77f7cf52cf8b8dbf8a39632601819b9cda"
+  AUTOREQUIRES = {:default=>[["rack-jekyll", false], ["rack-pony", false]]}
   SPECS        = [
         {:load_paths=>["/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/RedCloth-4.2.3/lib", "/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/RedCloth-4.2.3/ext", "/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/RedCloth-4.2.3/lib/case_sensitive_require"], :loaded_from=>"/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/specifications/RedCloth-4.2.3.gemspec", :name=>"RedCloth"},
         {:load_paths=>["/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/stemmer-1.0.1/lib"], :loaded_from=>"/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/specifications/stemmer-1.0.1.gemspec", :name=>"stemmer"},
         {:load_paths=>["/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/classifier-1.3.1/lib"], :loaded_from=>"/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/specifications/classifier-1.3.1.gemspec", :name=>"classifier"},
-        {:load_paths=>["/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/directory_watcher-1.3.1/lib"], :loaded_from=>"/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/specifications/directory_watcher-1.3.1.gemspec", :name=>"directory_watcher"},
+        {:load_paths=>["/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/directory_watcher-1.3.2/lib"], :loaded_from=>"/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/specifications/directory_watcher-1.3.2.gemspec", :name=>"directory_watcher"},
         {:load_paths=>["/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/liquid-2.0.0/lib"], :loaded_from=>"/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/specifications/liquid-2.0.0.gemspec", :name=>"liquid"},
         {:load_paths=>["/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/syntax-1.0.0/lib"], :loaded_from=>"/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/specifications/syntax-1.0.0.gemspec", :name=>"syntax"},
         {:load_paths=>["/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/maruku-0.6.0/lib"], :loaded_from=>"/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/specifications/maruku-0.6.0.gemspec", :name=>"maruku"},
@@ -157,6 +157,7 @@ module Bundler
         {:load_paths=>["/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/jekyll-0.5.7/lib"], :loaded_from=>"/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/specifications/jekyll-0.5.7.gemspec", :name=>"jekyll"},
         {:load_paths=>["/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/rack-1.1.0/lib"], :loaded_from=>"/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/specifications/rack-1.1.0.gemspec", :name=>"rack"},
         {:load_paths=>["/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/rack-jekyll-0.3.5/lib"], :loaded_from=>"/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/specifications/rack-jekyll-0.3.5.gemspec", :name=>"rack-jekyll"},
+        {:load_paths=>["/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/gems/rack-pony-1.0.0/lib"], :loaded_from=>"/Users/Andrew/.rvm/gems/ree-1.8.7-2009.10/specifications/rack-pony-1.0.0.gemspec", :name=>"rack-pony"},
       ].map do |hash|
     if hash[:virtual_spec]
       spec = eval(hash[:virtual_spec], binding, "<virtual spec for '#{hash[:name]}'>")
