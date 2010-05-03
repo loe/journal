@@ -5,13 +5,30 @@
  <link href="http://journal.andrewloe.com/atom.xml" rel="self"/>
  <link href="http://journal.andrewloe.com"/>
  <link rel="license" type="/application/rdf+xml" href="http://creativecommons.org/licenses/by-nc-sa/3.0/rdf" />
- <updated>2010-04-07T01:04:19-07:00</updated>
+ <updated>2010-05-02T22:54:53-07:00</updated>
  <id>http://journal.andrewloe.com</id>
  <author>
      <name>W. Andrew Loe III</name>
      <email>andrew@andrewloe.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Whistler</title>
+   <link href="http://journal.andrewloe.com//2010/05/01/whistler/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2010-05-01T00:00:00-07:00</updated>
+   <id>http://journal.andrewloe.com//2010/05/01/whistler</id>
+   <content type="html">Nucci and I went up to Whistler for some late season slush.
+
+&lt;p&gt;Dude:&lt;br /&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2010-04-25/11980138_oogpi#849127994_xxD3L&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2010-04-25/KIF3654/849127994_xxD3L-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Nucci&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh Hai:&lt;br /&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2010-04-25/11980138_oogpi#849127569_upin4&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2010-04-25/KIF3649/849127569_upin4-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Nucci&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Let's Go Get Lost</title>
@@ -197,17 +214,6 @@ Loading with on-the-fly gunzip and speed indicator.
    <id>http://journal.andrewloe.com//2009/03/25/niseko-day-2</id>
    <content type="html">&lt;p&gt;Pow Slash!&lt;br /&gt;
 &lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-25/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-25/KIF2747/823591735_rt4rz-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Slash&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Niseko: Day 1</title>
-   <link href="http://journal.andrewloe.com//2009/03/25/niseko-day-1/"/>
-   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
-   <updated>2009-03-25T00:00:00-07:00</updated>
-   <id>http://journal.andrewloe.com//2009/03/25/niseko-day-1</id>
-   <content type="html">&lt;p&gt;Japan grab in Japan!&lt;br /&gt;
-&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-24/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-24/KIF2714/823328411_pJQTK-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Japan in Japan!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  

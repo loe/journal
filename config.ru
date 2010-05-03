@@ -1,3 +1,4 @@
+require 'yaml'
 require 'rack/pony'
 require 'rack/jekyll'
 
