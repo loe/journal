@@ -7,8 +7,8 @@
   <meta name="author" content="W. Andrew Loe III" />
   <meta name="generator" content="jekyll" />
  
-  <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection">
-  <link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="http://assets.andrewloe.com/css/journal.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="http://assets.andrewloe.com/css/syntax.css" type="text/css" media="screen, projection">
  
   <link href="/atom.xml" rel="alternate" title="W. Andrew Loe III's Atom Feed" type="application/atom+xml" />
   
@@ -119,13 +119,16 @@ Repopulate your database with your converted data:<br />
 @$ mysql -u root project_development < project_development_utf8.sql@
 
 Don't forget to add the encoding to your database.yml!<br />
-<pre><code>development:
-  adapter: mysql
-  database: project_development
-  username: root
-  password: 
-  host: localhost
-  encoding: utf8</code></pre>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">development</span><span class="p-Indicator">:</span>
+  <span class="l-Scalar-Plain">adapter</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">mysql</span>
+  <span class="l-Scalar-Plain">database</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">project_development</span>
+  <span class="l-Scalar-Plain">username</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">root</span>
+  <span class="l-Scalar-Plain">password</span><span class="p-Indicator">:</span> 
+  <span class="l-Scalar-Plain">host</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">localhost</span>
+  <span class="l-Scalar-Plain">encoding</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">utf8</span>
+</code></pre>
+</div>
 
 </div>
 

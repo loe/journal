@@ -7,8 +7,8 @@
   <meta name="author" content="W. Andrew Loe III" />
   <meta name="generator" content="jekyll" />
  
-  <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection">
-  <link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="http://assets.andrewloe.com/css/journal.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="http://assets.andrewloe.com/css/syntax.css" type="text/css" media="screen, projection">
  
   <link href="/atom.xml" rel="alternate" title="W. Andrew Loe III's Atom Feed" type="application/atom+xml" />
   
@@ -103,28 +103,28 @@
 
 Trick is to only require redgreen/autotest if the RSPEC environmental variable is not set. Here is my ~/.autotest:
 
-<pre><code>
-require 'autotest/fsevent'
-require 'autotest/growl'
-require 'redgreen/autotest' unless ENV['RSPEC']
+<div class="highlight"><pre><code class="ruby"><span class="nb">require</span> <span class="s1">&#39;autotest/fsevent&#39;</span>
+<span class="nb">require</span> <span class="s1">&#39;autotest/growl&#39;</span>
+<span class="nb">require</span> <span class="s1">&#39;redgreen/autotest&#39;</span> <span class="k">unless</span> <span class="no">ENV</span><span class="o">[</span><span class="s1">&#39;RSPEC&#39;</span><span class="o">]</span>
 
-Autotest::Growl::show_modified_files = true
-Autotest::Growl::remote_notification = true
-Autotest::Growl::image_dir = File.join(ENV['HOME'], '.autotest-growl')
+<span class="no">Autotest</span><span class="o">::</span><span class="no">Growl</span><span class="o">::</span><span class="n">show_modified_files</span> <span class="o">=</span> <span class="kp">true</span>
+<span class="no">Autotest</span><span class="o">::</span><span class="no">Growl</span><span class="o">::</span><span class="n">remote_notification</span> <span class="o">=</span> <span class="kp">true</span>
+<span class="no">Autotest</span><span class="o">::</span><span class="no">Growl</span><span class="o">::</span><span class="n">image_dir</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">ENV</span><span class="o">[</span><span class="s1">&#39;HOME&#39;</span><span class="o">]</span><span class="p">,</span> <span class="s1">&#39;.autotest-growl&#39;</span><span class="p">)</span>
 
-Autotest.add_hook :initialize do |at|
-  at.sleep = 1
-  %w{.svn .hg .git vendor}.each {|exception| at.add_exception(exception)}
+<span class="no">Autotest</span><span class="o">.</span><span class="n">add_hook</span> <span class="ss">:initialize</span> <span class="k">do</span> <span class="o">|</span><span class="n">at</span><span class="o">|</span>
+  <span class="n">at</span><span class="o">.</span><span class="n">sleep</span> <span class="o">=</span> <span class="mi">1</span>
+  <span class="sx">%w{.svn .hg .git vendor}</span><span class="o">.</span><span class="n">each</span> <span class="p">{</span><span class="o">|</span><span class="n">exception</span><span class="o">|</span> <span class="n">at</span><span class="o">.</span><span class="n">add_exception</span><span class="p">(</span><span class="n">exception</span><span class="p">)}</span>
   
-  unless ARGV.empty?
-    if File.exist? 'config/environment.rb'
-      at.find_directories = ARGV.length == 1 ? ["spec/#{ARGV.first}", "app/#{ARGV.first}"] : ARGV.dup
-    end
-  end
+  <span class="k">unless</span> <span class="no">ARGV</span><span class="o">.</span><span class="n">empty?</span>
+    <span class="k">if</span> <span class="no">File</span><span class="o">.</span><span class="n">exist?</span> <span class="s1">&#39;config/environment.rb&#39;</span>
+      <span class="n">at</span><span class="o">.</span><span class="n">find_directories</span> <span class="o">=</span> <span class="no">ARGV</span><span class="o">.</span><span class="n">length</span> <span class="o">==</span> <span class="mi">1</span> <span class="o">?</span> <span class="o">[</span><span class="s2">&quot;spec/</span><span class="si">#{</span><span class="no">ARGV</span><span class="o">.</span><span class="n">first</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;app/</span><span class="si">#{</span><span class="no">ARGV</span><span class="o">.</span><span class="n">first</span><span class="si">}</span><span class="s2">&quot;</span><span class="o">]</span> <span class="p">:</span> <span class="no">ARGV</span><span class="o">.</span><span class="n">dup</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
   
-  at.add_mapping(%r%^spec/(processors|mailers|middlewares)/.*rb$%) { |filename, _| filename }
-end
-</pre></code>
+  <span class="n">at</span><span class="o">.</span><span class="n">add_mapping</span><span class="p">(</span><span class="sr">%r%^spec/(processors|mailers|middlewares)/.*rb$%</span><span class="p">)</span> <span class="p">{</span> <span class="o">|</span><span class="n">filename</span><span class="p">,</span> <span class="n">_</span><span class="o">|</span> <span class="n">filename</span> <span class="p">}</span>
+<span class="k">end</span>
+</code></pre>
+</div>
 
 </div>
 
