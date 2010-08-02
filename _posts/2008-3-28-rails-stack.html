@@ -54,12 +54,14 @@ Before adding any databases, it is also important to instruct MySQL to use more 
 
 In @/etc/mysql/my.cnf@:
 
-<pre><code>[client]
+{% highlight text %}
+[client]
 default-character-set = utf8
 
 [server]
 default-character-set = utf8
-default-collation = utf8_general_ci</code></pre>
+default-collation = utf8_general_ci
+{% endhighlight %}
 
 These directives instruct MySQL to use UTF-8 for everything. If you have not already, restart your database server.
 
@@ -129,7 +131,8 @@ The "wiki":http://mongrel.rubyforge.org/wiki/MongrelCluster has more extensive d
 
 This line creates the file @application/path/config/mongrel_cluster.yml@. Most of the switches are self explanatory, @-a 127.0.0.1@ configures the IP that the server binds to, by making it local you make it impossible to hit a mongrel directly without passing through the proxy. @-p@ and @-N@ configure the start port and the number of mongrels to start, so 8000, 8001, and 8002 in this case. @--user@ and @--group@ are the system user and group the servers will run under; because the mongrels run on an unprivileged port, they may run as an unprivileged user to improve security. @-e@ is the environment our rails application will run in and @-c@ is the path to our application (mongrel cluster will look for its configuration file at this path + @config/mongrel_cluster.yml@, you may use @-C@ if you want to directly specify a YAML config file).
 
-<pre><code>--- 
+{% highlight yaml %}
+--- 
 user: mongrel
 group: mongrel
 cwd: /path/to/my/application
@@ -138,7 +141,7 @@ port: "8000"
 servers: 3
 environment: production
 pid_file: log/mongrel.pid
-</code></pre>
+{% endhighlight %}
 
 h3. Evented Mongrel
 
@@ -160,7 +163,8 @@ h3. nginx
 
 Configuration is very straight forward, everything is done in @/etc/nginx/nginx.conf@. The following configuration is based on "Ezra Zygmuntowicz's Brainspl.at" "nginx.conf":http://brainspl.at/nginx.conf.txt.
 
-<pre><code># user and group to run as
+{% highlight nginx %}
+# user and group to run as
 user  www-data www-data;
 
 # number of nginx workers
@@ -291,7 +295,8 @@ http {
       root   /path/to/your/application/public;
     }
   }
-}</pre></code>
+}
+{% endhighlight %}
 
 Now that you have nginx configured, start it and you should have a solid rails stack up and running.
 

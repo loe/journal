@@ -151,12 +151,14 @@ Before adding any databases, it is also important to instruct MySQL to use more 
 
 In @/etc/mysql/my.cnf@:
 
-<pre><code>[client]
+<div class="highlight"><pre><code class="text">[client]
 default-character-set = utf8
 
 [server]
 default-character-set = utf8
-default-collation = utf8_general_ci</code></pre>
+default-collation = utf8_general_ci
+</code></pre>
+</div>
 
 These directives instruct MySQL to use UTF-8 for everything. If you have not already, restart your database server.
 
@@ -226,16 +228,17 @@ The "wiki":http://mongrel.rubyforge.org/wiki/MongrelCluster has more extensive d
 
 This line creates the file @application/path/config/mongrel_cluster.yml@. Most of the switches are self explanatory, @-a 127.0.0.1@ configures the IP that the server binds to, by making it local you make it impossible to hit a mongrel directly without passing through the proxy. @-p@ and @-N@ configure the start port and the number of mongrels to start, so 8000, 8001, and 8002 in this case. @--user@ and @--group@ are the system user and group the servers will run under; because the mongrels run on an unprivileged port, they may run as an unprivileged user to improve security. @-e@ is the environment our rails application will run in and @-c@ is the path to our application (mongrel cluster will look for its configuration file at this path + @config/mongrel_cluster.yml@, you may use @-C@ if you want to directly specify a YAML config file).
 
-<pre><code>--- 
-user: mongrel
-group: mongrel
-cwd: /path/to/my/application
-address: 127.0.0.1
-port: "8000"
-servers: 3
-environment: production
-pid_file: log/mongrel.pid
+<div class="highlight"><pre><code class="yaml"><span class="nn">---</span> 
+<span class="l-Scalar-Plain">user</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">mongrel</span>
+<span class="l-Scalar-Plain">group</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">mongrel</span>
+<span class="l-Scalar-Plain">cwd</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">/path/to/my/application</span>
+<span class="l-Scalar-Plain">address</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">127.0.0.1</span>
+<span class="l-Scalar-Plain">port</span><span class="p-Indicator">:</span> <span class="s">&quot;8000&quot;</span>
+<span class="l-Scalar-Plain">servers</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">3</span>
+<span class="l-Scalar-Plain">environment</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">production</span>
+<span class="l-Scalar-Plain">pid_file</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">log/mongrel.pid</span>
 </code></pre>
+</div>
 
 h3. Evented Mongrel
 
@@ -257,138 +260,140 @@ h3. nginx
 
 Configuration is very straight forward, everything is done in @/etc/nginx/nginx.conf@. The following configuration is based on "Ezra Zygmuntowicz's Brainspl.at" "nginx.conf":http://brainspl.at/nginx.conf.txt.
 
-<pre><code># user and group to run as
-user  www-data www-data;
+<div class="highlight"><pre><code class="nginx"><span class="c1"># user and group to run as</span>
+<span class="k">user</span>  <span class="s">www-data</span> <span class="s">www-data</span><span class="p">;</span>
 
-# number of nginx workers
-worker_processes  3;
+<span class="c1"># number of nginx workers</span>
+<span class="k">worker_processes</span>  <span class="mi">3</span><span class="p">;</span>
 
-# pid of nginx master process
-pid /var/run/nginx.pid;
+<span class="c1"># pid of nginx master process</span>
+<span class="k">pid</span> <span class="s">/var/run/nginx.pid</span><span class="p">;</span>
 
-# Number of worker connections. 1024 is a good default
-events {
-  worker_connections 1024;
-}
+<span class="c1"># Number of worker connections. 1024 is a good default</span>
+<span class="k">events</span> <span class="p">{</span>
+  <span class="kn">worker_connections</span> <span class="mi">1024</span><span class="p">;</span>
+<span class="p">}</span>
 
-# start the http module where we config http access.
-http {
-  # pull in mime-types. You can break out your config 
-  # into as many include's as you want to make it cleaner
-  include /etc/nginx/mime.types;
+<span class="c1"># start the http module where we config http access.</span>
+<span class="k">http</span> <span class="p">{</span>
+  <span class="c1"># pull in mime-types. You can break out your config </span>
+  <span class="c1"># into as many include&#39;s as you want to make it cleaner</span>
+  <span class="kn">include</span> <span class="s">/etc/nginx/mime.types</span><span class="p">;</span>
 
-  # set a default type for the rare situation that
-  # nothing matches from the mimie-type include
-  default_type  application/octet-stream;
+  <span class="c1"># set a default type for the rare situation that</span>
+  <span class="c1"># nothing matches from the mimie-type include</span>
+  <span class="kn">default_type</span>  <span class="s">application/octet-stream</span><span class="p">;</span>
 
-  # configure log format
-  log_format main '$remote_addr - $remote_user [$time_local] '
-                  '"$request" $status  $body_bytes_sent "$http_referer" '
-                  '"$http_user_agent" "$http_x_forwarded_for"';
+  <span class="c1"># configure log format</span>
+  <span class="kn">log_format</span> <span class="s">main</span> <span class="s">&#39;</span><span class="nv">$remote_addr</span> <span class="s">-</span> <span class="nv">$remote_user</span> <span class="s">[</span><span class="nv">$time_local]</span> <span class="s">&#39;</span>
+                  <span class="s">&#39;&quot;</span><span class="nv">$request&quot;</span> <span class="nv">$status</span>  <span class="nv">$body_bytes_sent</span> <span class="s">&quot;</span><span class="nv">$http_referer&quot;</span> <span class="s">&#39;</span>
+                  <span class="s">&#39;&quot;</span><span class="nv">$http_user_agent&quot;</span> <span class="s">&quot;</span><span class="nv">$http_x_forwarded_for&quot;&#39;</span><span class="p">;</span>
 
-  # main access log
-  access_log  /var/log/nginx_access.log  main;
+  <span class="c1"># main access log</span>
+  <span class="kn">access_log</span>  <span class="s">/var/log/nginx_access.log</span>  <span class="s">main</span><span class="p">;</span>
 
-  # main error log
-  error_log  /var/log/nginx_error.log debug;
+  <span class="c1"># main error log</span>
+  <span class="kn">error_log</span>  <span class="s">/var/log/nginx_error.log</span> <span class="s">debug</span><span class="p">;</span>
 
-  # no sendfile on OSX
-  sendfile on;
+  <span class="c1"># no sendfile on OSX</span>
+  <span class="kn">sendfile</span> <span class="no">on</span><span class="p">;</span>
 
-  # These are good default values.
-  tcp_nopush        on;
-  tcp_nodelay       off;
-  # output compression saves bandwidth 
-  gzip            on;
-  gzip_http_version 1.0;
-  gzip_comp_level 2;
-  gzip_proxied any;
-  gzip_types      text/plain text/html text/css application/x-javascript text/xml application/xml application/xml+rss text/javascript;
-
-
-  # this is where you define your mongrel clusters. 
-  # you need one of these blocks for each cluster
-  # and each one needs its own name to refer to it later.
-  upstream mongrel {
-		fair; # This changes from round-robin based to load based.
-    server 127.0.0.1:8000;
-    server 127.0.0.1:8001;
-    server 127.0.0.1:8002;
-  }
+  <span class="c1"># These are good default values.</span>
+  <span class="kn">tcp_nopush</span>        <span class="no">on</span><span class="p">;</span>
+  <span class="kn">tcp_nodelay</span>       <span class="no">off</span><span class="p">;</span>
+  <span class="c1"># output compression saves bandwidth </span>
+  <span class="kn">gzip</span>            <span class="no">on</span><span class="p">;</span>
+  <span class="kn">gzip_http_version</span> <span class="mi">1</span><span class="s">.0</span><span class="p">;</span>
+  <span class="kn">gzip_comp_level</span> <span class="mi">2</span><span class="p">;</span>
+  <span class="kn">gzip_proxied</span> <span class="s">any</span><span class="p">;</span>
+  <span class="kn">gzip_types</span>      <span class="s">text/plain</span> <span class="s">text/html</span> <span class="s">text/css</span> <span class="s">application/x-javascript</span> <span class="s">text/xml</span> <span class="s">application/xml</span> <span class="s">application/xml+rss</span> <span class="s">text/javascript</span><span class="p">;</span>
 
 
-  # the server directive is nginx's virtual host directive.
-  server {
-    # port to listen on. Can also be set to an IP:PORT
-    listen 80;
+  <span class="c1"># this is where you define your mongrel clusters. </span>
+  <span class="c1"># you need one of these blocks for each cluster</span>
+  <span class="c1"># and each one needs its own name to refer to it later.</span>
+  <span class="kn">upstream</span> <span class="s">mongrel</span> <span class="p">{</span>
+		<span class="kn">fair</span><span class="p">;</span> <span class="c1"># This changes from round-robin based to load based.</span>
+    <span class="kn">server</span> <span class="n">127.0.0.1</span><span class="p">:</span><span class="mi">8000</span><span class="p">;</span>
+    <span class="kn">server</span> <span class="n">127.0.0.1</span><span class="p">:</span><span class="mi">8001</span><span class="p">;</span>
+    <span class="kn">server</span> <span class="n">127.0.0.1</span><span class="p">:</span><span class="mi">8002</span><span class="p">;</span>
+  <span class="p">}</span>
+
+
+  <span class="c1"># the server directive is nginx&#39;s virtual host directive.</span>
+  <span class="kn">server</span> <span class="p">{</span>
+    <span class="c1"># port to listen on. Can also be set to an IP:PORT</span>
+    <span class="kn">listen</span> <span class="mi">80</span><span class="p">;</span>
     
-    # Set the max size for file uploads to 50Mb
-    client_max_body_size 50M;
+    <span class="c1"># Set the max size for file uploads to 50Mb</span>
+    <span class="kn">client_max_body_size</span> <span class="s">50M</span><span class="p">;</span>
 
-    # sets the domain[s] that this vhost server requests for
-    # server_name www.[yourdomain].com [yourdomain].com;
+    <span class="c1"># sets the domain[s] that this vhost server requests for</span>
+    <span class="c1"># server_name www.[yourdomain].com [yourdomain].com;</span>
 
-    # doc root
-    root /path/to/your/application/public;
+    <span class="c1"># doc root</span>
+    <span class="kn">root</span> <span class="s">/path/to/your/application/public</span><span class="p">;</span>
 
-    # vhost specific access log
-    access_log  /var/log/nginx.vhost.access.log  main;
+    <span class="c1"># vhost specific access log</span>
+    <span class="kn">access_log</span>  <span class="s">/var/log/nginx.vhost.access.log</span>  <span class="s">main</span><span class="p">;</span>
 
-    # this rewrites all the requests to the maintenance.html
-    # page if it exists in the doc root. This is for capistrano's
-    # disable web task
-    if (-f $document_root/system/maintenance.html) {
-      rewrite  ^(.*)$  /system/maintenance.html last;
-      break;
-    }
+    <span class="c1"># this rewrites all the requests to the maintenance.html</span>
+    <span class="c1"># page if it exists in the doc root. This is for capistrano&#39;s</span>
+    <span class="c1"># disable web task</span>
+    <span class="kn">if</span> <span class="s">(-f</span> <span class="nv">$document_root/system/maintenance.html</span><span class="s">)</span> <span class="p">{</span>
+      <span class="kn">rewrite</span>  <span class="s">^(.*)</span>$  <span class="s">/system/maintenance.html</span> <span class="s">last</span><span class="p">;</span>
+      <span class="kn">break</span><span class="p">;</span>
+    <span class="p">}</span>
 
-    location / {
-      # needed to forward user's IP address to rails
-      proxy_set_header  X-Real-IP  $remote_addr;
+    <span class="kn">location</span> <span class="s">/</span> <span class="p">{</span>
+      <span class="c1"># needed to forward user&#39;s IP address to rails</span>
+      <span class="kn">proxy_set_header</span>  <span class="s">X-Real-IP</span>  <span class="nv">$remote_addr</span><span class="p">;</span>
 
-      # needed for HTTPS
-      proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-      proxy_set_header Host $http_host;
-      proxy_redirect false;
-      proxy_max_temp_file_size 0;
+      <span class="c1"># needed for HTTPS</span>
+      <span class="kn">proxy_set_header</span>  <span class="s">X-Forwarded-For</span> <span class="nv">$proxy_add_x_forwarded_for</span><span class="p">;</span>
+      <span class="kn">proxy_set_header</span> <span class="s">Host</span> <span class="nv">$http_host</span><span class="p">;</span>
+      <span class="kn">proxy_redirect</span> <span class="s">false</span><span class="p">;</span>
+      <span class="kn">proxy_max_temp_file_size</span> <span class="mi">0</span><span class="p">;</span>
       
-      # If the file exists as a static file serve it directly without
-      # running all the other rewite tests on it
-      if (-f $request_filename) { 
-        break; 
-      }
+      <span class="c1"># If the file exists as a static file serve it directly without</span>
+      <span class="c1"># running all the other rewite tests on it</span>
+      <span class="kn">if</span> <span class="s">(-f</span> <span class="nv">$request_filename</span><span class="s">)</span> <span class="p">{</span> 
+        <span class="kn">break</span><span class="p">;</span> 
+      <span class="p">}</span>
 
-      # check for index.html for directory index
-      # if its there on the filesystem then rewite 
-      # the url to add /index.html to the end of it
-      # and then break to send it to the next config rules.
-      if (-f $request_filename/index.html) {
-        rewrite (.*) $1/index.html break;
-      }
+      <span class="c1"># check for index.html for directory index</span>
+      <span class="c1"># if its there on the filesystem then rewite </span>
+      <span class="c1"># the url to add /index.html to the end of it</span>
+      <span class="c1"># and then break to send it to the next config rules.</span>
+      <span class="kn">if</span> <span class="s">(-f</span> <span class="nv">$request_filename/index.html</span><span class="s">)</span> <span class="p">{</span>
+        <span class="kn">rewrite</span> <span class="s">(.*)</span> <span class="nv">$1/index.html</span> <span class="s">break</span><span class="p">;</span>
+      <span class="p">}</span>
 
-      # this is the meat of the rails page caching config
-      # it adds .html to the end of the url and then checks
-      # the filesystem for that file. If it exists, then we
-      # rewite the url to have explicit .html on the end 
-      # and then send it on its way to the next config rule.
-      # if there is no file on the fs then it sets all the 
-      # necessary headers and proxies to our upstream mongrels
-      if (-f $request_filename.html) {
-        rewrite (.*) $1.html break;
-      }
+      <span class="c1"># this is the meat of the rails page caching config</span>
+      <span class="c1"># it adds .html to the end of the url and then checks</span>
+      <span class="c1"># the filesystem for that file. If it exists, then we</span>
+      <span class="c1"># rewite the url to have explicit .html on the end </span>
+      <span class="c1"># and then send it on its way to the next config rule.</span>
+      <span class="c1"># if there is no file on the fs then it sets all the </span>
+      <span class="c1"># necessary headers and proxies to our upstream mongrels</span>
+      <span class="kn">if</span> <span class="s">(-f</span> <span class="nv">$request_filename.html</span><span class="s">)</span> <span class="p">{</span>
+        <span class="kn">rewrite</span> <span class="s">(.*)</span> <span class="nv">$1.html</span> <span class="s">break</span><span class="p">;</span>
+      <span class="p">}</span>
 
-      if (!-f $request_filename) {
-        proxy_pass http://mongrel;
-        break;
-      }
-    }
+      <span class="kn">if</span> <span class="s">(!-f</span> <span class="nv">$request_filename</span><span class="s">)</span> <span class="p">{</span>
+        <span class="kn">proxy_pass</span> <span class="s">http://mongrel</span><span class="p">;</span>
+        <span class="kn">break</span><span class="p">;</span>
+      <span class="p">}</span>
+    <span class="p">}</span>
 
-    error_page   500 502 503 504  /500.html;
-    location = /500.html {
-      root   /path/to/your/application/public;
-    }
-  }
-}</pre></code>
+    <span class="kn">error_page</span>   <span class="mi">500</span> <span class="mi">502</span> <span class="mi">503</span> <span class="mi">504</span>  <span class="s">/500.html</span><span class="p">;</span>
+    <span class="kn">location</span> <span class="p">=</span> <span class="s">/500.html</span> <span class="p">{</span>
+      <span class="kn">root</span>   <span class="s">/path/to/your/application/public</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+</div>
 
 Now that you have nginx configured, start it and you should have a solid rails stack up and running.
 
