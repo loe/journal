@@ -23,10 +23,13 @@ Repopulate your database with your converted data:<br />
 @$ mysql -u root project_development < project_development_utf8.sql@
 
 Don't forget to add the encoding to your database.yml!<br />
-<pre><code>development:
+
+{% highlight yaml %}
+development:
   adapter: mysql
   database: project_development
   username: root
   password: 
   host: localhost
-  encoding: utf8</code></pre>
+  encoding: utf8
+{% endhighlight %}
