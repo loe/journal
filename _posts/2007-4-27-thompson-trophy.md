@@ -3,7 +3,7 @@ layout: post
 title: Thompson Trophy
 ---
 April 21-22 @ CGA in FJs & 420s<br />
-A: Erik Storck/Killarney Loufek<br/>
+A: Erik Storck/Killarney Loufek
 B: Andrew Loe/Matthew Cohen
 
 Saturday: We showed up to a dying Northerly with high hopes for a good sea-breeze. Unfortunately we ended up with the two breezes fighting throughout the day. Matty and I started off rough, but we got ourselves sorted and started to figure things out. Only 7 races.

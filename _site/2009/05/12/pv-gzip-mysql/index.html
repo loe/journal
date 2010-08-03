@@ -99,15 +99,15 @@
 
     <p class="pubdate">Posted on Tuesday, May 12, 2009</p>
 
-    I am writing this down for my own benefit:
+    <p>I am writing this down for my own benefit:</p>
 
-Dumping with on-the-fly gzip and speed indicator.
+<p>Dumping with on-the-fly gzip and speed indicator.</p>
 
-`$ mysqldump -u root -p database | pv | gzip -c > database.sql.gz`
+<p><code>$ mysqldump -u root -p database | pv | gzip -c &gt; database.sql.gz</code></p>
 
-Loading with on-the-fly gunzip and speed indicator.
+<p>Loading with on-the-fly gunzip and speed indicator.</p>
 
-`$ pv database.sql.gz | gunzip | mysql -u root -p database`
+<p><code>$ pv database.sql.gz | gunzip | mysql -u root -p database</code></p>
 
 
 </div>

@@ -5,7 +5,7 @@
  <link href="http://journal.andrewloe.com/atom.xml" rel="self"/>
  <link href="http://journal.andrewloe.com"/>
  <link rel="license" type="/application/rdf+xml" href="http://creativecommons.org/licenses/by-nc-sa/3.0/rdf" />
- <updated>2010-08-03T01:55:20-07:00</updated>
+ <updated>2010-08-03T02:08:24-07:00</updated>
  <id>http://journal.andrewloe.com</id>
  <author>
      <name>W. Andrew Loe III</name>
@@ -19,13 +19,18 @@
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-05-01T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2010/05/01/whistler</id>
-   <content type="html">Nucci and I went up to Whistler for some late season slush.
+   <content type="html">&lt;p&gt;Nucci and I went up to Whistler for some late season slush.&lt;/p&gt;
 
 &lt;p&gt;Dude:&lt;br /&gt;
 &lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2010-04-25/11980138_oogpi#849127994_xxD3L&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2010-04-25/KIF3654/849127994_xxD3L-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Nucci&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
+
+
+
 &lt;p&gt;Oh Hai:&lt;br /&gt;
 &lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2010-04-25/11980138_oogpi#849127569_upin4&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2010-04-25/KIF3649/849127569_upin4-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Nucci&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+
 
 </content>
  </entry>
@@ -36,9 +41,9 @@
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-03-03T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2010/03/03/let-s-go-get-lost</id>
-   <content type="html">&lt;object width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/_WZjOcoCWdk&amp;hl=en_US&amp;fs=1&amp;hd=1&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/_WZjOcoCWdk&amp;hl=en_US&amp;fs=1&amp;hd=1&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+   <content type="html">&lt;p&gt;&lt;object width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/_WZjOcoCWdk&amp;hl=en_US&amp;fs=1&amp;hd=1&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/_WZjOcoCWdk&amp;hl=en_US&amp;fs=1&amp;hd=1&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
 
-The incredibly catchy tune is Sushi by Kyle Andrews.
+&lt;p&gt;The incredibly catchy tune is Sushi by Kyle Andrews.&lt;/p&gt;
 </content>
  </entry>
  
@@ -51,8 +56,13 @@ The incredibly catchy tune is Sushi by Kyle Andrews.
    <content type="html">&lt;p&gt;BS 360:&lt;br /&gt;
 &lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2010-02-26/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2010-02-26/KIF3400/823347308_5qR7w-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Nucci&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
+
+
+
 &lt;p&gt;Nucci getting a sweet nose press:&lt;br /&gt;
 &lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2010-01-31/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2010-01-31/KIF3144/823351179_Wku3k-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Nucci&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+
 
 </content>
  </entry>
@@ -63,9 +73,9 @@ The incredibly catchy tune is Sushi by Kyle Andrews.
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-01-28T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2010/01/28/redgreen-with-autotest-and-autospec</id>
-   <content type="html">I use both RSpec and Test/Unit and the accompanying autospec and autotest. I was struggling to get coloring for both without breakage.
+   <content type="html">&lt;p&gt;I use both RSpec and Test/Unit and the accompanying autospec and autotest. I was struggling to get coloring for both without breakage.&lt;/p&gt;
 
-Trick is to only require redgreen/autotest if the RSPEC environmental variable is not set. Here is my ~/.autotest:
+&lt;p&gt;Trick is to only require redgreen/autotest if the RSPEC environmental variable is not set. Here is my ~/.autotest:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;autotest/fsevent&amp;#39;&lt;/span&gt;
 &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;autotest/growl&amp;#39;&lt;/span&gt;
@@ -88,7 +98,9 @@ Trick is to only require redgreen/autotest if the RSPEC environmental variable i
   &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_mapping&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;%r%^spec/(processors|mailers|middlewares)/.*rb$%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content>
+&lt;/div&gt;
+
+</content>
  </entry>
  
  <entry>
@@ -97,9 +109,13 @@ Trick is to only require redgreen/autotest if the RSPEC environmental variable i
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-01-04T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2010/01/04/send-me-files</id>
-   <content type="html">New project I'm working on.
+   <content type="html">&lt;p&gt;New project I'm working on.&lt;/p&gt;
 
-&lt;script src=&quot;//x.onehub.com/dropboxes/obpwd36o/drops/new.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&lt;span class=&quot;powered_by_onehub&quot;&gt;Powered by &lt;a href=&quot;http://onehub.com/&quot;&gt;Onehub&lt;/a&gt;&lt;/span&gt;</content>
+&lt;script src=&quot;//x.onehub.com/dropboxes/obpwd36o/drops/new.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;span class=&quot;powered_by_onehub&quot;&gt;Powered by &lt;a href=&quot;http://onehub.com/&quot;&gt;Onehub&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
@@ -108,7 +124,7 @@ Trick is to only require redgreen/autotest if the RSPEC environmental variable i
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-01-02T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2010/01/02/happy-new-year</id>
-   <content type="html">I shall endeavor to return to traditional blogging this year. I have been very busy on &lt;a href=&quot;http://twitter.com/waloeiii&quot;&gt;Twitter.com/WALoeIII&lt;/a&gt; recently.
+   <content type="html">&lt;p&gt;I shall endeavor to return to traditional blogging this year. I have been very busy on &lt;a href=&quot;http://twitter.com/waloeiii&quot;&gt;Twitter.com/WALoeIII&lt;/a&gt; recently.&lt;/p&gt;
 </content>
  </entry>
  
@@ -118,9 +134,9 @@ Trick is to only require redgreen/autotest if the RSPEC environmental variable i
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-08-24T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/08/24/505-worlds</id>
-   <content type="html">&lt;object width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/X5qY7FM1Lao&amp;hl=en&amp;fs=1&amp;hd=1&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/X5qY7FM1Lao&amp;hl=en&amp;fs=1&amp;hd=1&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+   <content type="html">&lt;p&gt;&lt;object width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/X5qY7FM1Lao&amp;hl=en&amp;fs=1&amp;hd=1&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/X5qY7FM1Lao&amp;hl=en&amp;fs=1&amp;hd=1&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
 
-Good luck &lt;a href=&quot;http://johnloe.com/&quot;&gt;John&lt;/a&gt; &amp; Craig!
+&lt;p&gt;Good luck &lt;a href=&quot;http://johnloe.com/&quot;&gt;John&lt;/a&gt; &amp;amp; Craig!&lt;/p&gt;
 </content>
  </entry>
  
@@ -130,7 +146,7 @@ Good luck &lt;a href=&quot;http://johnloe.com/&quot;&gt;John&lt;/a&gt; &amp; Cra
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-08-20T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/08/20/n00b-boyfriend</id>
-   <content type="html">&lt;a href=&quot;http://www.collegehumor.com/video:1917993&quot;&gt;http://www.collegehumor.com/video:1917993&lt;/a&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.collegehumor.com/video:1917993&quot;&gt;http://www.collegehumor.com/video:1917993&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -140,7 +156,7 @@ Good luck &lt;a href=&quot;http://johnloe.com/&quot;&gt;John&lt;/a&gt; &amp; Cra
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-07-22T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/07/22/sensational</id>
-   <content type="html">&lt;object width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/HxN33qW-n4E&amp;hl=en&amp;fs=1&amp;&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/HxN33qW-n4E&amp;hl=en&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+   <content type="html">&lt;p&gt;&lt;object width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/HxN33qW-n4E&amp;hl=en&amp;fs=1&amp;&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/HxN33qW-n4E&amp;hl=en&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -150,11 +166,11 @@ Good luck &lt;a href=&quot;http://johnloe.com/&quot;&gt;John&lt;/a&gt; &amp; Cra
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-05-12T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/05/12/ssh-pv-mysql</id>
-   <content type="html">This is a good one courtesy of &lt;a href=&quot;http://wuputah.com/&quot;&gt;Jonathan Dance&lt;/a&gt;.
+   <content type="html">&lt;p&gt;This is a good one courtesy of &lt;a href=&quot;http://wuputah.com/&quot;&gt;Jonathan Dance&lt;/a&gt;.&lt;/p&gt;
 
-`ssh -C gateway ssh -C database-server mysqldump -u root -pPASSWORD database | pv | mysql -u root database`
+&lt;p&gt;&lt;code&gt;ssh -C gateway ssh -C database-server mysqldump -u root -pPASSWORD database | pv | mysql -u root database&lt;/code&gt;&lt;/p&gt;
 
-The `-C` flag does ssh compression.
+&lt;p&gt;The &lt;code&gt;-C&lt;/code&gt; flag does ssh compression.&lt;/p&gt;
 </content>
  </entry>
  
@@ -164,15 +180,15 @@ The `-C` flag does ssh compression.
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-05-12T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/05/12/pv-gzip-mysql</id>
-   <content type="html">I am writing this down for my own benefit:
+   <content type="html">&lt;p&gt;I am writing this down for my own benefit:&lt;/p&gt;
 
-Dumping with on-the-fly gzip and speed indicator.
+&lt;p&gt;Dumping with on-the-fly gzip and speed indicator.&lt;/p&gt;
 
-`$ mysqldump -u root -p database | pv | gzip -c &gt; database.sql.gz`
+&lt;p&gt;&lt;code&gt;$ mysqldump -u root -p database | pv | gzip -c &amp;gt; database.sql.gz&lt;/code&gt;&lt;/p&gt;
 
-Loading with on-the-fly gunzip and speed indicator.
+&lt;p&gt;Loading with on-the-fly gunzip and speed indicator.&lt;/p&gt;
 
-`$ pv database.sql.gz | gunzip | mysql -u root -p database`
+&lt;p&gt;&lt;code&gt;$ pv database.sql.gz | gunzip | mysql -u root -p database&lt;/code&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -182,7 +198,7 @@ Loading with on-the-fly gunzip and speed indicator.
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-03-30T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/03/30/niskeo-day-5</id>
-   <content type="html">&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-28/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-28/P3280253/823337374_Ptsbn-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Nucci&quot; /&gt;&lt;/a&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-28/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-28/P3280253/823337374_Ptsbn-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Nucci&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -192,7 +208,7 @@ Loading with on-the-fly gunzip and speed indicator.
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-03-27T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/03/27/niseko-day-4</id>
-   <content type="html">&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-27/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-27/P3270180/823337969_gVRGK-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Buddies&quot; /&gt;&lt;/a&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-27/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-27/P3270180/823337969_gVRGK-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Buddies&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -202,7 +218,7 @@ Loading with on-the-fly gunzip and speed indicator.
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-03-26T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/03/26/niseko-day-3</id>
-   <content type="html">&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-26/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-26/KIF2773/823338891_h8ama-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Spin to win!&quot; /&gt;&lt;/a&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-26/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-26/KIF2773/823338891_h8ama-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Spin to win!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -214,6 +230,7 @@ Loading with on-the-fly gunzip and speed indicator.
    <id>http://journal.andrewloe.com//2009/03/25/niseko-day-2</id>
    <content type="html">&lt;p&gt;Pow Slash!&lt;br /&gt;
 &lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-25/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-25/KIF2747/823591735_rt4rz-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Slash&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
 </content>
  </entry>
  

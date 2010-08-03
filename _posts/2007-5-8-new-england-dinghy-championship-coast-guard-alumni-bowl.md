@@ -2,8 +2,8 @@
 layout: post
 title: New England Dinghy Championship (Coast Guard Alumni Bowl)
 ---
-May 5-6 @ CGA in FJs & 420s<br/>
-A: Erik Storck/Killarney Loufek & Anne Megargel</br>
+May 5-6 @ CGA in FJs & 420s
+A: Erik Storck/Killarney Loufek & Anne Megargel
 B: Andrew Loe/Betsy Bryant & Matthew Cohen
 
 Saturday: Crazy. Again, seems to be the theme at Coast Guard this year. Day started with a dying Northerly that was predicted to shift to a nice Southerly sea-breeze. Didn't happen. The two breezes fought all day and we were caught right in the middle. Only 4 races were completed, and they were extremely questionable at that. We finished the day tied for 4th, but it was still very early.
