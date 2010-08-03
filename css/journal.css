@@ -150,6 +150,7 @@ pre, code {
     font-family: "Palatino", "URWPalladioL", "Times", serif;
     font-size: 1.2em;
     margin-left: 0;
+    text-transform: lowercase;
 }
 #nav ul li {
     list-style: none;   
