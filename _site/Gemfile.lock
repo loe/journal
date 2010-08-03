@@ -1,39 +1,35 @@
 --- 
 dependencies: 
-  rack-pony: 
-    group: 
-    - :default
-    version: ">= 0"
   rack-jekyll: 
     group: 
     - :default
     version: ">= 0"
+  rack-rewrite: 
+    group: 
+    - :default
+    version: ">= 0"
 specs: 
-- RedCloth: 
-    version: 4.2.3
-- stemmer: 
-    version: 1.0.1
+- fast-stemmer: 
+    version: 1.0.0
 - classifier: 
-    version: 1.3.1
+    version: 1.3.3
 - directory_watcher: 
     version: 1.3.2
 - liquid: 
-    version: 2.0.0
+    version: 2.1.2
 - syntax: 
     version: 1.0.0
 - maruku: 
     version: 0.6.0
-- open4: 
-    version: 1.0.1
 - jekyll: 
-    version: 0.5.7
+    version: 0.6.2
 - rack: 
-    version: 1.1.0
+    version: 1.2.1
 - rack-jekyll: 
     version: 0.3.5
-- rack-pony: 
+- rack-rewrite: 
     version: 1.0.0
-hash: 24b13d77f7cf52cf8b8dbf8a39632601819b9cda
+hash: cdba5a25c8c381f45eda50c2c8383a2e8d2ded92
 sources: 
 - Rubygems: 
-    uri: http://gemcutter.org
+    uri: http://rubygems.org/

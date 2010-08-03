@@ -109,38 +109,38 @@ You will need a functioning "Macports":http://macports.com/ installation and a f
 
 h2. Conventions
 
-@$@ indicates a standard shell prompt.<br />
-@#@ indicates the command needs to be run as the root user by assuming root privileges with @sudo@.
+`$` indicates a standard shell prompt.<br />
+`#` indicates the command needs to be run as the root user by assuming root privileges with `sudo`.
 
 h3. Install nginx with SSL Support
 
-@# port install nginx +ssl@
+`# port install nginx +ssl`
 
 h3. Make Your Certs Directory
 
-@# mkdir -p /opt/local/etc/nginx/certs@<br />
-@$ cd /opt/local/etc/nginx/certs@
+`# mkdir -p /opt/local/etc/nginx/certs`<br />
+`$ cd /opt/local/etc/nginx/certs`
 
 h3. Make Your Own Certificate
 
 Follow the prompts but **MAKE SURE TO USE *.example.com AS YOUR Common Name!**<br />
 "http://pastie.org/234929":http://pastie.org/234929<br/>
-@# openssl req -new -x509 -nodes -days 365 -out server.crt -keyout server.key@
+`# openssl req -new -x509 -nodes -days 365 -out server.crt -keyout server.key`
 
 h3. Create an nginx Configuration File
 
 Use "http://pastie.org/234927":http://pastie.org/234927 as an example.<br/>
 Edit out my locations with yours. (i.e. Replace /Users/Andrew/Projects/macchiato with wherever your code lives.)<br />
-@# mate /opt/local/etc/nginx/nginx.conf@
+`# mate /opt/local/etc/nginx/nginx.conf`
 
 h3. Fire Up nginx and Your Mongrel
 
-@# /opt/local/sbin/nginx@<br/>
-@$ script/server@
+`# /opt/local/sbin/nginx`<br/>
+`$ script/server`
 
 h3. Check Your DNS
 
-@# mate /etc/hosts to make sure app.example.com points to localhost@
+`# mate /etc/hosts to make sure app.example.com points to localhost`
 
 h3. Accept Your New Certificate
 
