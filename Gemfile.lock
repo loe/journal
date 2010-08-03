@@ -29,7 +29,7 @@ specs:
     version: 0.3.5
 - rack-rewrite: 
     version: 1.0.0
-hash: 58dff7aef45a23c0d2fbe0a86b8dd3c31b211176
+hash: cdba5a25c8c381f45eda50c2c8383a2e8d2ded92
 sources: 
 - Rubygems: 
-    uri: http://gemcutter.org
+    uri: http://rubygems.org/
