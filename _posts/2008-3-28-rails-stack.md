@@ -105,7 +105,7 @@ With `mysql` all setup and out of the way, its easy to install everything else y
 
 `tmail` is an e-mail library, and is the same library that the `ActiveMailer` component of Rails uses. Rails 2.0 now looks for this gem before loading its own bundled copy; by installing the gem you can get extra features and bug fixes that may have been released.
 
-`swiftiply` is a gem that patches mongrel to use the event based network programming model, commonly called [evented mongrels". You can find more on "Ezra Zygmuntowicz's Brainspl.at](http://brainspl.at/articles/2007/05/12/event-driven-mongrel-and-swiftiply-proxy) and [my journal](http://journal.andrewloe.com/computers-and-technology) where I did some [elementary benchmarking](http://journal.andrewloe.com/2007/05/22/mongrel-vs-evented-mongrel/).
+`swiftiply` is a gem that patches mongrel to use the event based network programming model, commonly called "evented mongrels". You can find more on [Ezra Zygmuntowicz's Brainspl.at](http://brainspl.at/articles/2007/05/12/event-driven-mongrel-and-swiftiply-proxy) and [my journal](http://journal.andrewloe.com/) where I did some [elementary benchmarking](http://journal.andrewloe.com/2007/05/22/mongrel-vs-evented-mongrel/).
 
 ### Mongrel
 
