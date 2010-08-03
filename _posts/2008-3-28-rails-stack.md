@@ -2,7 +2,7 @@
 layout: post
 title: Rails Stack
 ---
-## Linux, "MySQL":http://mysql.com/, "nginx":http://nginx.net/, "Mongrel":http://mongrel.rubyforge.com/ , "Rails":http://rubyonrails.org/, and friends.
+## [Linux](http://kernel.org/), [MySQL](http://mysql.com/), [nginx](http://nginx.org/), [Mongrel](http://mongrel.rubyforge.com/), [Rails](http://rubyonrails.org/), and friends.
 
 ## Big Picture:
 
@@ -79,11 +79,11 @@ The application server requires the most complex setup.
 
 ### Ruby & Ruby Gems
 
-To start, you will need "Ruby":http://www.ruby-lang.org/ and "Ruby Gems":http://www.ruby-lang.org/.
+To start, you will need [Ruby](http://www.ruby-lang.org/) and [Ruby Gems](http://www.ruby-lang.org/).
 
 `# apt-get install ruby rubygems`
 
-`ruby` is a transitional package, currently it will install Ruby 1.8.6 (as of March 20, 2008), unless you know of a specific feature or bug to avoid, it is simplest to let the the package-management system handle which version you get. "Ruby Gems":http://rubyforge.org/projects/rubygems/ is a package management system for system for third party ruby libraries, it functions much like "CPAN":http://www.cpan.org/ for "Perl":http://www.perl.com/ or "PEAR":http://www.perl.com/ for "PHP":http://php.net/. We're going to want a number of gems, but first lets update gems itself, from within itself -- how meta.
+`ruby` is a transitional package, currently it will install Ruby 1.8.6 (as of March 20, 2008), unless you know of a specific feature or bug to avoid, it is simplest to let the the package-management system handle which version you get. [Ruby Gems](http://rubyforge.org/projects/rubygems/) is a package management system for system for third party ruby libraries, it functions much like [CPAN](http://www.cpan.org/) for [Perl](http://www.perl.com/) or [PEAR](http://www.perl.com/) for [PHP](http://php.net/). We're going to want a number of gems, but first lets update gems itself, from within itself -- how meta.
 
 `# gem update --system`
 
@@ -105,11 +105,11 @@ With `mysql` all setup and out of the way, its easy to install everything else y
 
 `tmail` is an e-mail library, and is the same library that the `ActiveMailer` component of Rails uses. Rails 2.0 now looks for this gem before loading its own bundled copy; by installing the gem you can get extra features and bug fixes that may have been released.
 
-`swiftiply` is a gem that patches mongrel to use the event based network programming model, commonly called "evented mongrels". You can find more on "Ezra Zygmuntowicz's Brainspl.at":http://brainspl.at/articles/2007/05/12/event-driven-mongrel-and-swiftiply-proxy and "my journal":http://journal.andrewloe.com/computers-and-technology where I did some "elementary benchmarking":http://journal.andrewloe.com/2007/5/22/mongrel-vs-evented-mongrel.
+`swiftiply` is a gem that patches mongrel to use the event based network programming model, commonly called [evented mongrels". You can find more on "Ezra Zygmuntowicz's Brainspl.at](http://brainspl.at/articles/2007/05/12/event-driven-mongrel-and-swiftiply-proxy) and [my journal](http://journal.andrewloe.com/computers-and-technology) where I did some [elementary benchmarking](http://journal.andrewloe.com/2007/05/22/mongrel-vs-evented-mongrel/).
 
 ### Mongrel
 
-"Mongrel":http://mongrel.rubyforge.org/ will serve as our application server, containing an instance of the Ruby interpreter and our Rails application.
+[Mongrel](http://mongrel.rubyforge.org/) will serve as our application server, containing an instance of the Ruby interpreter and our Rails application.
 
 bq. Mongrel is a fast HTTP library and server for Ruby that is intended for hosting Ruby web applications of any kind using plain HTTP rather than FastCGI or SCGI.
 
@@ -117,15 +117,15 @@ From inside your rails application you can start a mongrel server and interact w
 
 `$ mongrel_rails start`
 
-A daemon with the application should now be running on port 3000. `ctrl+c` to stop the server, lets move on to "mongrel_cluster":http://mongrel.rubyforge.org/wiki/MongrelCluster
+A daemon with the application should now be running on port 3000. `ctrl+c` to stop the server, lets move on to [mongrel_cluster](http://mongrel.rubyforge.org/wiki/MongrelCluster)
 
 ### Mongrel Cluster
 
-"Mongrel Cluster":http://mongrel.rubyforge.org/wiki/MongrelCluster will manage a pool of mongrels that nginx will reverse proxy requests to.
+[Mongrel Cluster](http://mongrel.rubyforge.org/wiki/MongrelCluster) will manage a pool of mongrels that nginx will reverse proxy requests to.
 
 bq. Mongrel_cluster is a GemPlugin that wrappers the mongrel HTTP server and simplifies the deployment of webapps using a cluster of mongrel servers. Mongrel_cluster will conveniently configure and control several mongrel servers, or groups of mongrel servers, which are then load balanced using a reverse proxy solution.
 
-The "wiki":http://mongrel.rubyforge.org/wiki/MongrelCluster has more extensive documentation, right now we will only look at the basics.
+The [wiki](http://mongrel.rubyforge.org/wiki/MongrelCluster) has more extensive documentation, right now we will only look at the basics.
 
 `# mongrel_rails cluster::configure -e production -p 8000 -N 3 -c /path/to/your/application -a 127.0.0.1 --user mongrel --group mongrel`
 
@@ -157,11 +157,11 @@ Currently our application server and web server are on the same virtual machine.
 
 ### nginx
 
-"nginx":http://nginx.net/ is a very fast proxy that we will also use to serve our static content.
+[nginx](http://nginx.org/) is a very fast proxy that we will also use to serve our static content.
 
 `# apt-get install nginx`
 
-Configuration is very straight forward, everything is done in `/etc/nginx/nginx.conf`. The following configuration is based on "Ezra Zygmuntowicz's Brainspl.at" "nginx.conf":http://brainspl.at/nginx.conf.txt.
+Configuration is very straight forward, everything is done in `/etc/nginx/nginx.conf`. The following configuration is based on [Ezra Zygmuntowicz's Brainspl.at" "nginx.conf](http://brainspl.at/nginx.conf.txt).
 
 {% highlight nginx %}
 # user and group to run as
