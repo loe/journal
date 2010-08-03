@@ -99,7 +99,7 @@
 
     <p class="pubdate">Posted on Friday, March 28, 2008</p>
 
-    <h2>Linux, "MySQL":http://mysql.com/, "nginx":http://nginx.net/, "Mongrel":http://mongrel.rubyforge.com/ , "Rails":http://rubyonrails.org/, and friends.</h2>
+    <h2><a href="http://kernel.org/">Linux</a>, <a href="http://mysql.com/">MySQL</a>, <a href="http://nginx.org/">nginx</a>, <a href="http://mongrel.rubyforge.com/">Mongrel</a>, <a href="http://rubyonrails.org/">Rails</a>, and friends.</h2>
 
 <h2>Big Picture:</h2>
 
@@ -177,11 +177,11 @@ default-collation = utf8_general_ci
 
 <h3>Ruby &amp; Ruby Gems</h3>
 
-<p>To start, you will need "Ruby":http://www.ruby-lang.org/ and "Ruby Gems":http://www.ruby-lang.org/.</p>
+<p>To start, you will need <a href="http://www.ruby-lang.org/">Ruby</a> and <a href="http://www.ruby-lang.org/">Ruby Gems</a>.</p>
 
 <p><code># apt-get install ruby rubygems</code></p>
 
-<p><code>ruby</code> is a transitional package, currently it will install Ruby 1.8.6 (as of March 20, 2008), unless you know of a specific feature or bug to avoid, it is simplest to let the the package-management system handle which version you get. "Ruby Gems":http://rubyforge.org/projects/rubygems/ is a package management system for system for third party ruby libraries, it functions much like "CPAN":http://www.cpan.org/ for "Perl":http://www.perl.com/ or "PEAR":http://www.perl.com/ for "PHP":http://php.net/. We're going to want a number of gems, but first lets update gems itself, from within itself -- how meta.</p>
+<p><code>ruby</code> is a transitional package, currently it will install Ruby 1.8.6 (as of March 20, 2008), unless you know of a specific feature or bug to avoid, it is simplest to let the the package-management system handle which version you get. <a href="http://rubyforge.org/projects/rubygems/">Ruby Gems</a> is a package management system for system for third party ruby libraries, it functions much like <a href="http://www.cpan.org/">CPAN</a> for <a href="http://www.perl.com/">Perl</a> or <a href="http://www.perl.com/">PEAR</a> for <a href="http://php.net/">PHP</a>. We're going to want a number of gems, but first lets update gems itself, from within itself -- how meta.</p>
 
 <p><code># gem update --system</code></p>
 
@@ -203,11 +203,11 @@ default-collation = utf8_general_ci
 
 <p><code>tmail</code> is an e-mail library, and is the same library that the <code>ActiveMailer</code> component of Rails uses. Rails 2.0 now looks for this gem before loading its own bundled copy; by installing the gem you can get extra features and bug fixes that may have been released.</p>
 
-<p><code>swiftiply</code> is a gem that patches mongrel to use the event based network programming model, commonly called "evented mongrels". You can find more on "Ezra Zygmuntowicz's Brainspl.at":http://brainspl.at/articles/2007/05/12/event-driven-mongrel-and-swiftiply-proxy and "my journal":http://journal.andrewloe.com/computers-and-technology where I did some "elementary benchmarking":http://journal.andrewloe.com/2007/5/22/mongrel-vs-evented-mongrel.</p>
+<p><code>swiftiply</code> is a gem that patches mongrel to use the event based network programming model, commonly called <a href="http://brainspl.at/articles/2007/05/12/event-driven-mongrel-and-swiftiply-proxy">evented mongrels". You can find more on "Ezra Zygmuntowicz's Brainspl.at</a> and <a href="http://journal.andrewloe.com/computers-and-technology">my journal</a> where I did some <a href="http://journal.andrewloe.com/2007/05/22/mongrel-vs-evented-mongrel/">elementary benchmarking</a>.</p>
 
 <h3>Mongrel</h3>
 
-<p>"Mongrel":http://mongrel.rubyforge.org/ will serve as our application server, containing an instance of the Ruby interpreter and our Rails application.</p>
+<p><a href="http://mongrel.rubyforge.org/">Mongrel</a> will serve as our application server, containing an instance of the Ruby interpreter and our Rails application.</p>
 
 <p>bq. Mongrel is a fast HTTP library and server for Ruby that is intended for hosting Ruby web applications of any kind using plain HTTP rather than FastCGI or SCGI.</p>
 
@@ -215,15 +215,15 @@ default-collation = utf8_general_ci
 
 <p><code>$ mongrel_rails start</code></p>
 
-<p>A daemon with the application should now be running on port 3000. <code>ctrl+c</code> to stop the server, lets move on to "mongrel_cluster":http://mongrel.rubyforge.org/wiki/MongrelCluster</p>
+<p>A daemon with the application should now be running on port 3000. <code>ctrl+c</code> to stop the server, lets move on to <a href="http://mongrel.rubyforge.org/wiki/MongrelCluster">mongrel_cluster</a></p>
 
 <h3>Mongrel Cluster</h3>
 
-<p>"Mongrel Cluster":http://mongrel.rubyforge.org/wiki/MongrelCluster will manage a pool of mongrels that nginx will reverse proxy requests to.</p>
+<p><a href="http://mongrel.rubyforge.org/wiki/MongrelCluster">Mongrel Cluster</a> will manage a pool of mongrels that nginx will reverse proxy requests to.</p>
 
 <p>bq. Mongrel_cluster is a GemPlugin that wrappers the mongrel HTTP server and simplifies the deployment of webapps using a cluster of mongrel servers. Mongrel_cluster will conveniently configure and control several mongrel servers, or groups of mongrel servers, which are then load balanced using a reverse proxy solution.</p>
 
-<p>The "wiki":http://mongrel.rubyforge.org/wiki/MongrelCluster has more extensive documentation, right now we will only look at the basics.</p>
+<p>The <a href="http://mongrel.rubyforge.org/wiki/MongrelCluster">wiki</a> has more extensive documentation, right now we will only look at the basics.</p>
 
 <p><code># mongrel_rails cluster::configure -e production -p 8000 -N 3 -c /path/to/your/application -a 127.0.0.1 --user mongrel --group mongrel</code></p>
 
@@ -256,11 +256,11 @@ default-collation = utf8_general_ci
 
 <h3>nginx</h3>
 
-<p>"nginx":http://nginx.net/ is a very fast proxy that we will also use to serve our static content.</p>
+<p><a href="http://nginx.org/">nginx</a> is a very fast proxy that we will also use to serve our static content.</p>
 
 <p><code># apt-get install nginx</code></p>
 
-<p>Configuration is very straight forward, everything is done in <code>/etc/nginx/nginx.conf</code>. The following configuration is based on "Ezra Zygmuntowicz's Brainspl.at" "nginx.conf":http://brainspl.at/nginx.conf.txt.</p>
+<p>Configuration is very straight forward, everything is done in <code>/etc/nginx/nginx.conf</code>. The following configuration is based on <a href="http://brainspl.at/nginx.conf.txt">Ezra Zygmuntowicz's Brainspl.at" "nginx.conf</a>.</p>
 
 <div class="highlight"><pre><code class="nginx"><span class="c1"># user and group to run as</span>
 <span class="k">user</span>  <span class="s">www-data</span> <span class="s">www-data</span><span class="p">;</span>
