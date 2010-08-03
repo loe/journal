@@ -2,25 +2,25 @@
 layout: post
 title: Rails Stack
 ---
-h2. Linux, "MySQL":http://mysql.com/, "nginx":http://nginx.net/, "Mongrel":http://mongrel.rubyforge.com/ , "Rails":http://rubyonrails.org/, and friends.
+## Linux, "MySQL":http://mysql.com/, "nginx":http://nginx.net/, "Mongrel":http://mongrel.rubyforge.com/ , "Rails":http://rubyonrails.org/, and friends.
 
-h2. Big Picture:
+## Big Picture:
 
 An ideal setup uses two different servers or virtual machines to split up the load and facilitate scaling. The first machine runs nginx serving static content and acting as a reverse proxy passing dynamic requests to a pool of mongrels running the rails application. The second machine is a dedicated MySQL database server. Even if you only have one physical box, two virtual machines (Xen based) is preferred, it is easier to scale and doesn't require as much memory context switching. Our host, Engine Yard, uses a similar setup based on Gentoo and Xen.
 
-h2. Linux Setup:
+## Linux Setup:
 
 All of the tools and applications used in this stack are actively developed and available in most package management systems. This document will assume you use Debian/GNU Linux, but will work equally well on Ubuntu. If choose to use Fedora, Gentoo or another distribution, you will need substitute commands for your package-management tool.
 
 Installing and configuring Linux is outside the scope of this document, but you should strive for a minimalist system based on a recent release of the 2.6 kernel. Debian and Ubuntu both offer a number of "pre-made" configurations in their installers, just avoid installing anything more than the base system as it will just add more software that you will have to disable or remove later.
 
-h2. Conventions:
+## Conventions:
 
 `$` indicates a standard shell prompt.
 
 `#` indicates the command needs to be run as the root user, either by switching to the root user account or assuming root privileges with a tool like `sudo`.
 
-h2. Tools:
+## Tools:
 
 While installing and managing a Linux server, you will often need the power of the root account. However, because the root user is so powerful, it dangerous to use all the time. A better solution is to use a standard user account and only assume the privileges of the root user when necessary. Sudo was designed to do exactly this.
 
@@ -36,7 +36,7 @@ If you are unfamiliar with vi, press 'i' to put it in insert mode, then add a li
 
 You can read more on the sudo package to better understand this configuration file. Once you have completed your edit, press escape (ESC) to exit editor mode. To save the file type ':' to enter command mode and then type 'w' and 'q' (meaning write and quit). The file should be properly saved and your user will now be able to assume root privileges.
 
-h2. Database Server:
+## Database Server:
 
 MySQL is our database of choice, it is popular in the Rails community, proven to scale, and fast (especially in a read heavy environment).
 
@@ -46,7 +46,7 @@ To install, use the mysql-server package.
 
 Your package manager should handle all the dependencies, including the mysql-client package, which we will use to improve our Ruby to MySQL performance. The installer may prompt you for a few questions, aim to accept the defaults and enter in information specific to your server.
 
-h3. Database Configuration:
+### Database Configuration:
 
 The configuration file for MySQL is usually located in `/etc/mysql as my.cnf`. Most MySQL packages also include a number of other simple configurations to help MySQL perform better. Take a look at `my-large.cnf` and `my-small.cnf` in `/usr/share/mysql` and update your `/etc/mysql/my.cnf` to reflect your hardware or virtual machine's configuration. MySQL tuning is a complex subject, but some basic configuration can go a long way to helping the application to perform well.
 
@@ -73,11 +73,11 @@ You can now add the database to the server.
 
 Consult the MySQL documentation to change the root user's password and to add a user with privileges on the specific database. It may be simpler to use a MySQL administration GUI to achieve these tasks.
 
-h2. Application Server
+## Application Server
 
 The application server requires the most complex setup.
 
-h3. Ruby & Ruby Gems
+### Ruby & Ruby Gems
 
 To start, you will need "Ruby":http://www.ruby-lang.org/ and "Ruby Gems":http://www.ruby-lang.org/.
 
@@ -107,7 +107,7 @@ With `mysql` all setup and out of the way, its easy to install everything else y
 
 `swiftiply` is a gem that patches mongrel to use the event based network programming model, commonly called "evented mongrels". You can find more on "Ezra Zygmuntowicz's Brainspl.at":http://brainspl.at/articles/2007/05/12/event-driven-mongrel-and-swiftiply-proxy and "my journal":http://journal.andrewloe.com/computers-and-technology where I did some "elementary benchmarking":http://journal.andrewloe.com/2007/5/22/mongrel-vs-evented-mongrel.
 
-h3. Mongrel
+### Mongrel
 
 "Mongrel":http://mongrel.rubyforge.org/ will serve as our application server, containing an instance of the Ruby interpreter and our Rails application.
 
@@ -119,7 +119,7 @@ From inside your rails application you can start a mongrel server and interact w
 
 A daemon with the application should now be running on port 3000. `ctrl+c` to stop the server, lets move on to "mongrel_cluster":http://mongrel.rubyforge.org/wiki/MongrelCluster
 
-h3. Mongrel Cluster
+### Mongrel Cluster
 
 "Mongrel Cluster":http://mongrel.rubyforge.org/wiki/MongrelCluster will manage a pool of mongrels that nginx will reverse proxy requests to.
 
@@ -143,7 +143,7 @@ environment: production
 pid_file: log/mongrel.pid
 {% endhighlight %}
 
-h3. Evented Mongrel
+### Evented Mongrel
 
 To use evented mongrels, you just need to pass an environmental variable `EVENT=1` while starting your server. With `mongrel_cluster` that will look like this:
 
@@ -151,11 +151,11 @@ To use evented mongrels, you just need to pass an environmental variable `EVENT=
 
 Don't forget to pass it even if you are just restarting the servers! At the top of the mongrel.log you should see it notify you that it is using events.
 
-h2. Web Server
+## Web Server
 
 Currently our application server and web server are on the same virtual machine. In the future, we may choose to scale by moving the web server and static content to another virtual machine (or perhaps a CDN like Akamai) and have pure application servers. For now, we will keep things simple.
 
-h3. nginx
+### nginx
 
 "nginx":http://nginx.net/ is a very fast proxy that we will also use to serve our static content.
 
@@ -302,6 +302,6 @@ Now that you have nginx configured, start it and you should have a solid rails s
 
 `# /etc/init.d/nginx start`
 
-h2. Request Cycle
+## Request Cycle
 
 Unlike more traditional setups, each individual request does not necessarily take the same path. Nginx monitors port 80 and accepts all incoming requests. Using the rewrite rules it looks for a file in the `public` directory with `/url/path + .html`. If it finds this static HTML page, it replies. It also searches for `index.html` to retrieve folder indexes. These static HTML files are generated by rails' page caching mechanism, and provide enormous performance gains at a cost of flexibility. If nginx is unable to find an HTML page, it forwards the request to the cluster of mongrels. The mongrel that gets the request depends on which proxy algorithm you choose; the fair option spread the requests based on availability. Once received, the mongrel then runs the request through the rails application: the database is hit, ruby does some magic, and a page is completed and passed back to the mongrel which logs the request as complete and passes it back to nginx. If page caching is enabled, rails writes the page that was just generated to the `public` directory (lazy caching) before handing it off to the mongrel. Nginx takes this page and forwards it to the browser, acting as a proxy (gateway). The general process is repeated on each request, but the mongrel that is given the dynamic request will be different, and a cached page may be found, avoiding the need to engage the mongrels all together.
