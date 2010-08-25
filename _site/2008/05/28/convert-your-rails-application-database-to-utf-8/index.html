@@ -106,7 +106,7 @@
 
 <p>Note: If you are using <a href="http://macports.com/">MacPorts</a> for your mysql installation, <code>mysqldump</code> will be <code>mysqldump5</code>.</p>
 
-<p>Remove the character sets from the table definitions: (be careful if have the phrase ' DEFAULT CHARSET=latin1' in your data it will be removed!)<br />
+<p>Remove the character sets from the table definitions: (be careful if have the phrase &lsquo; DEFAULT CHARSET=latin1&rsquo; in your data it will be removed!)<br />
 <code>$ sed 's/ DEFAULT CHARSET=latin1//' project_development.sql</code></p>
 
 <p>Convert the characters in that file from latin1 to UTF-8 using <a href="http://www.gnu.org/software/libiconv/">iconv</a>:<br />
@@ -118,7 +118,7 @@
 <p>Repopulate your database with your converted data:<br />
 <code>$ mysql -u root project_development &lt; project_development_utf8.sql</code></p>
 
-<p>Don't forget to add the encoding to your database.yml!<br /></p>
+<p>Don&rsquo;t forget to add the encoding to your database.yml!<br /></p>
 
 <div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">development</span><span class="p-Indicator">:</span>
   <span class="l-Scalar-Plain">adapter</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">mysql</span>

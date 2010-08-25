@@ -5,7 +5,7 @@
  <link href="http://journal.andrewloe.com/atom.xml" rel="self"/>
  <link href="http://journal.andrewloe.com"/>
  <link rel="license" type="/application/rdf+xml" href="http://creativecommons.org/licenses/by-nc-sa/3.0/rdf" />
- <updated>2010-08-16T00:11:28-07:00</updated>
+ <updated>2010-08-24T18:16:42-07:00</updated>
  <id>http://journal.andrewloe.com</id>
  <author>
      <name>W. Andrew Loe III</name>
@@ -128,7 +128,7 @@
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-01-04T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2010/01/04/send-me-files</id>
-   <content type="html">&lt;p&gt;New project I'm working on.&lt;/p&gt;
+   <content type="html">&lt;p&gt;New project I&amp;rsquo;m working on.&lt;/p&gt;
 
 &lt;script src=&quot;//x.onehub.com/dropboxes/obpwd36o/drops/new.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
 

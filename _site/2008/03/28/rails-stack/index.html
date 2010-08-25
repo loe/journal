@@ -103,13 +103,13 @@
 
 <h2>Big Picture:</h2>
 
-<p>An ideal setup uses two different servers or virtual machines to split up the load and facilitate scaling. The first machine runs nginx serving static content and acting as a reverse proxy passing dynamic requests to a pool of mongrels running the rails application. The second machine is a dedicated MySQL database server. Even if you only have one physical box, two virtual machines (Xen based) is preferred, it is easier to scale and doesn't require as much memory context switching. Our host, Engine Yard, uses a similar setup based on Gentoo and Xen.</p>
+<p>An ideal setup uses two different servers or virtual machines to split up the load and facilitate scaling. The first machine runs nginx serving static content and acting as a reverse proxy passing dynamic requests to a pool of mongrels running the rails application. The second machine is a dedicated MySQL database server. Even if you only have one physical box, two virtual machines (Xen based) is preferred, it is easier to scale and doesn&rsquo;t require as much memory context switching. Our host, Engine Yard, uses a similar setup based on Gentoo and Xen.</p>
 
 <h2>Linux Setup:</h2>
 
 <p>All of the tools and applications used in this stack are actively developed and available in most package management systems. This document will assume you use Debian/GNU Linux, but will work equally well on Ubuntu. If choose to use Fedora, Gentoo or another distribution, you will need substitute commands for your package-management tool.</p>
 
-<p>Installing and configuring Linux is outside the scope of this document, but you should strive for a minimalist system based on a recent release of the 2.6 kernel. Debian and Ubuntu both offer a number of "pre-made" configurations in their installers, just avoid installing anything more than the base system as it will just add more software that you will have to disable or remove later.</p>
+<p>Installing and configuring Linux is outside the scope of this document, but you should strive for a minimalist system based on a recent release of the 2.6 kernel. Debian and Ubuntu both offer a number of &ldquo;pre-made&rdquo; configurations in their installers, just avoid installing anything more than the base system as it will just add more software that you will have to disable or remove later.</p>
 
 <h2>Conventions:</h2>
 
@@ -127,11 +127,11 @@
 
 <p><code># visudo</code></p>
 
-<p>If you are unfamiliar with vi, press 'i' to put it in insert mode, then add a line to enable your user.</p>
+<p>If you are unfamiliar with vi, press &lsquo;i&rsquo; to put it in insert mode, then add a line to enable your user.</p>
 
 <p><code>username   ALL=(ALL) ALL</code></p>
 
-<p>You can read more on the sudo package to better understand this configuration file. Once you have completed your edit, press escape (ESC) to exit editor mode. To save the file type ':' to enter command mode and then type 'w' and 'q' (meaning write and quit). The file should be properly saved and your user will now be able to assume root privileges.</p>
+<p>You can read more on the sudo package to better understand this configuration file. Once you have completed your edit, press escape (ESC) to exit editor mode. To save the file type &lsquo;:&rsquo; to enter command mode and then type &lsquo;w&rsquo; and &lsquo;q&rsquo; (meaning write and quit). The file should be properly saved and your user will now be able to assume root privileges.</p>
 
 <h2>Database Server:</h2>
 
@@ -145,7 +145,7 @@
 
 <h3>Database Configuration:</h3>
 
-<p>The configuration file for MySQL is usually located in <code>/etc/mysql as my.cnf</code>. Most MySQL packages also include a number of other simple configurations to help MySQL perform better. Take a look at <code>my-large.cnf</code> and <code>my-small.cnf</code> in <code>/usr/share/mysql</code> and update your <code>/etc/mysql/my.cnf</code> to reflect your hardware or virtual machine's configuration. MySQL tuning is a complex subject, but some basic configuration can go a long way to helping the application to perform well.</p>
+<p>The configuration file for MySQL is usually located in <code>/etc/mysql as my.cnf</code>. Most MySQL packages also include a number of other simple configurations to help MySQL perform better. Take a look at <code>my-large.cnf</code> and <code>my-small.cnf</code> in <code>/usr/share/mysql</code> and update your <code>/etc/mysql/my.cnf</code> to reflect your hardware or virtual machine&rsquo;s configuration. MySQL tuning is a complex subject, but some basic configuration can go a long way to helping the application to perform well.</p>
 
 <p>Before adding any databases, it is also important to instruct MySQL to use more international character encodings and collations. Storing the data in this way will make internationalization a simpler task in the future.</p>
 
@@ -169,7 +169,7 @@ default-collation = utf8_general_ci
 
 <p><code>$ mysqladmin -u root create database_name</code></p>
 
-<p>Consult the MySQL documentation to change the root user's password and to add a user with privileges on the specific database. It may be simpler to use a MySQL administration GUI to achieve these tasks.</p>
+<p>Consult the MySQL documentation to change the root user&rsquo;s password and to add a user with privileges on the specific database. It may be simpler to use a MySQL administration GUI to achieve these tasks.</p>
 
 <h2>Application Server</h2>
 
@@ -181,15 +181,15 @@ default-collation = utf8_general_ci
 
 <p><code># apt-get install ruby rubygems</code></p>
 
-<p><code>ruby</code> is a transitional package, currently it will install Ruby 1.8.6 (as of March 20, 2008), unless you know of a specific feature or bug to avoid, it is simplest to let the the package-management system handle which version you get. <a href="http://rubyforge.org/projects/rubygems/">Ruby Gems</a> is a package management system for system for third party ruby libraries, it functions much like <a href="http://www.cpan.org/">CPAN</a> for <a href="http://www.perl.com/">Perl</a> or <a href="http://www.perl.com/">PEAR</a> for <a href="http://php.net/">PHP</a>. We're going to want a number of gems, but first lets update gems itself, from within itself -- how meta.</p>
+<p><code>ruby</code> is a transitional package, currently it will install Ruby 1.8.6 (as of March 20, 2008), unless you know of a specific feature or bug to avoid, it is simplest to let the the package-management system handle which version you get. <a href="http://rubyforge.org/projects/rubygems/">Ruby Gems</a> is a package management system for system for third party ruby libraries, it functions much like <a href="http://www.cpan.org/">CPAN</a> for <a href="http://www.perl.com/">Perl</a> or <a href="http://www.perl.com/">PEAR</a> for <a href="http://php.net/">PHP</a>. We&rsquo;re going to want a number of gems, but first lets update gems itself, from within itself &mdash; how meta.</p>
 
 <p><code># gem update --system</code></p>
 
-<p>Ruby gems should now download and recompile itself. Once that has completed, you can install the gems we'll need. The first one is a bit trickier than the others.</p>
+<p>Ruby gems should now download and recompile itself. Once that has completed, you can install the gems we&rsquo;ll need. The first one is a bit trickier than the others.</p>
 
 <p><code># gem install mysql</code></p>
 
-<p>The <code>mysql</code> gem provides fast C bindings between Ruby and MySQL, if you aren't already using these on your local machine you should give them a spin, the performance increase is well worth the minimal amount of effort required to install them. If you have your MySQL installed in a non-standard location, you may have to pass in <code>mysql_config</code>.</p>
+<p>The <code>mysql</code> gem provides fast C bindings between Ruby and MySQL, if you aren&rsquo;t already using these on your local machine you should give them a spin, the performance increase is well worth the minimal amount of effort required to install them. If you have your MySQL installed in a non-standard location, you may have to pass in <code>mysql_config</code>.</p>
 
 <p><code># gem install mysql -- --with-mysql-config=/your/path/to/mysql_config</code></p>
 
@@ -203,7 +203,7 @@ default-collation = utf8_general_ci
 
 <p><code>tmail</code> is an e-mail library, and is the same library that the <code>ActiveMailer</code> component of Rails uses. Rails 2.0 now looks for this gem before loading its own bundled copy; by installing the gem you can get extra features and bug fixes that may have been released.</p>
 
-<p><code>swiftiply</code> is a gem that patches mongrel to use the event based network programming model, commonly called "evented mongrels". You can find more on <a href="http://brainspl.at/articles/2007/05/12/event-driven-mongrel-and-swiftiply-proxy">Ezra Zygmuntowicz's Brainspl.at</a> and <a href="http://journal.andrewloe.com/">my journal</a> where I did some <a href="http://journal.andrewloe.com/2007/05/22/mongrel-vs-evented-mongrel/">elementary benchmarking</a>.</p>
+<p><code>swiftiply</code> is a gem that patches mongrel to use the event based network programming model, commonly called &ldquo;evented mongrels&rdquo;. You can find more on <a href="http://brainspl.at/articles/2007/05/12/event-driven-mongrel-and-swiftiply-proxy">Ezra Zygmuntowicz&rsquo;s Brainspl.at</a> and <a href="http://journal.andrewloe.com/">my journal</a> where I did some <a href="http://journal.andrewloe.com/2007/05/22/mongrel-vs-evented-mongrel/">elementary benchmarking</a>.</p>
 
 <h3>Mongrel</h3>
 
@@ -248,7 +248,7 @@ default-collation = utf8_general_ci
 
 <p><code># EVENT=1 mongrel_rails cluster::start</code></p>
 
-<p>Don't forget to pass it even if you are just restarting the servers! At the top of the mongrel.log you should see it notify you that it is using events.</p>
+<p>Don&rsquo;t forget to pass it even if you are just restarting the servers! At the top of the mongrel.log you should see it notify you that it is using events.</p>
 
 <h2>Web Server</h2>
 
@@ -260,7 +260,7 @@ default-collation = utf8_general_ci
 
 <p><code># apt-get install nginx</code></p>
 
-<p>Configuration is very straight forward, everything is done in <code>/etc/nginx/nginx.conf</code>. The following configuration is based on <a href="http://brainspl.at/nginx.conf.txt">Ezra Zygmuntowicz's Brainspl.at" "nginx.conf</a>.</p>
+<p>Configuration is very straight forward, everything is done in <code>/etc/nginx/nginx.conf</code>. The following configuration is based on <a href="http://brainspl.at/nginx.conf.txt">Ezra Zygmuntowicz&rsquo;s Brainspl.at" &ldquo;nginx.conf</a>.</p>
 
 <div class="highlight"><pre><code class="nginx"><span class="c1"># user and group to run as</span>
 <span class="k">user</span>  <span class="s">www-data</span> <span class="s">www-data</span><span class="p">;</span>

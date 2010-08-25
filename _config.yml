@@ -9,3 +9,5 @@ permalink: pretty
 pygments: true
 lsi: false
 markdown: rdiscount
+rdiscount:
+  extensions: [smart]
