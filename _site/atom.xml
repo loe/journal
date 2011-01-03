@@ -5,13 +5,39 @@
  <link href="http://journal.andrewloe.com/atom.xml" rel="self"/>
  <link href="http://journal.andrewloe.com"/>
  <link rel="license" type="/application/rdf+xml" href="http://creativecommons.org/licenses/by-nc-sa/3.0/rdf" />
- <updated>2010-08-24T18:16:42-07:00</updated>
+ <updated>2011-01-02T20:58:21-08:00</updated>
  <id>http://journal.andrewloe.com</id>
  <author>
      <name>W. Andrew Loe III</name>
      <email>andrew@andrewloe.com</email>
  </author>
 
+ 
+ <entry>
+   <title>GoPro</title>
+   <link href="http://journal.andrewloe.com//2011/01/02/go-pro/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2011-01-02T00:00:00-08:00</updated>
+   <id>http://journal.andrewloe.com//2011/01/02/go-pro</id>
+   <content type="html">&lt;p&gt;I got a GoPro, having some fun so far!&lt;/p&gt;
+
+&lt;p&gt;Follow Cam:&lt;br /&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2011-01-02/15305667_h4Bwg#1145103301_KTy4a&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2011-01-02/GOPR0027/1145103301_KTy4a-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Follow Cam&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Nosegrab:&lt;br /&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2011-01-02/15305667_h4Bwg#1145109211_ec3dN&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2011-01-02/GOPR0029/1145109211_ec3dN-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Nucci&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Hi Mallory:&lt;br /&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2011-01-02/15305667_h4Bwg#1145119587_zCxmq&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2011-01-02/GOPR0033/1145119587_zCxmq-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Mallory&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Gorge Kiting in Stevenson, WA</title>
@@ -228,16 +254,6 @@
    <updated>2009-03-27T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/03/27/niseko-day-4</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-27/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-27/P3270180/823337969_gVRGK-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Buddies&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Niseko: Day 3</title>
-   <link href="http://journal.andrewloe.com//2009/03/26/niseko-day-3/"/>
-   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
-   <updated>2009-03-26T00:00:00-07:00</updated>
-   <id>http://journal.andrewloe.com//2009/03/26/niseko-day-3</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-26/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2009-03-26/KIF2773/823338891_h8ama-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Spin to win!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
