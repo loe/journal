@@ -18,7 +18,7 @@ layout: nil
  {% for post in site.posts limit: 15 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="{{ site.url }}/{{ post.url }}"/>
+   <link href="{{ site.url }}{{ post.url }}"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}/{{ post.id }}</id>

@@ -5,7 +5,7 @@
  <link href="http://journal.andrewloe.com/atom.xml" rel="self"/>
  <link href="http://journal.andrewloe.com"/>
  <link rel="license" type="/application/rdf+xml" href="http://creativecommons.org/licenses/by-nc-sa/3.0/rdf" />
- <updated>2011-01-02T20:59:18-08:00</updated>
+ <updated>2011-01-03T09:27:51-08:00</updated>
  <id>http://journal.andrewloe.com</id>
  <author>
      <name>W. Andrew Loe III</name>
@@ -15,7 +15,7 @@
  
  <entry>
    <title>GoPro</title>
-   <link href="http://journal.andrewloe.com//2011/01/02/go-pro/"/>
+   <link href="http://journal.andrewloe.com/2011/01/02/go-pro/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2011-01-02T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2011/01/02/go-pro</id>
@@ -41,7 +41,7 @@
  
  <entry>
    <title>Gorge Kiting in Stevenson, WA</title>
-   <link href="http://journal.andrewloe.com//2010/08/15/gorge-kiting/"/>
+   <link href="http://journal.andrewloe.com/2010/08/15/gorge-kiting/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-08-15T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2010/08/15/gorge-kiting</id>
@@ -60,7 +60,7 @@
  
  <entry>
    <title>Whistler</title>
-   <link href="http://journal.andrewloe.com//2010/05/01/whistler/"/>
+   <link href="http://journal.andrewloe.com/2010/05/01/whistler/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-05-01T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2010/05/01/whistler</id>
@@ -82,7 +82,7 @@
  
  <entry>
    <title>Let's Go Get Lost</title>
-   <link href="http://journal.andrewloe.com//2010/03/03/let-s-go-get-lost/"/>
+   <link href="http://journal.andrewloe.com/2010/03/03/let-s-go-get-lost/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-03-03T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2010/03/03/let-s-go-get-lost</id>
@@ -94,7 +94,7 @@
  
  <entry>
    <title>Aspen Extreme</title>
-   <link href="http://journal.andrewloe.com//2010/03/03/aspen-extreme/"/>
+   <link href="http://journal.andrewloe.com/2010/03/03/aspen-extreme/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-03-03T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2010/03/03/aspen-extreme</id>
@@ -114,7 +114,7 @@
  
  <entry>
    <title>redgreen with autotest and autospec</title>
-   <link href="http://journal.andrewloe.com//2010/01/28/redgreen-with-autotest-and-autospec/"/>
+   <link href="http://journal.andrewloe.com/2010/01/28/redgreen-with-autotest-and-autospec/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-01-28T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2010/01/28/redgreen-with-autotest-and-autospec</id>
@@ -150,7 +150,7 @@
  
  <entry>
    <title>Send me files!</title>
-   <link href="http://journal.andrewloe.com//2010/01/04/send-me-files/"/>
+   <link href="http://journal.andrewloe.com/2010/01/04/send-me-files/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-01-04T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2010/01/04/send-me-files</id>
@@ -165,7 +165,7 @@
  
  <entry>
    <title>Happy New Year!</title>
-   <link href="http://journal.andrewloe.com//2010/01/02/happy-new-year/"/>
+   <link href="http://journal.andrewloe.com/2010/01/02/happy-new-year/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-01-02T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2010/01/02/happy-new-year</id>
@@ -175,7 +175,7 @@
  
  <entry>
    <title>505 Worlds</title>
-   <link href="http://journal.andrewloe.com//2009/08/24/505-worlds/"/>
+   <link href="http://journal.andrewloe.com/2009/08/24/505-worlds/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-08-24T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/08/24/505-worlds</id>
@@ -187,7 +187,7 @@
  
  <entry>
    <title>N00b Boyfriend</title>
-   <link href="http://journal.andrewloe.com//2009/08/20/n00b-boyfriend/"/>
+   <link href="http://journal.andrewloe.com/2009/08/20/n00b-boyfriend/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-08-20T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/08/20/n00b-boyfriend</id>
@@ -197,7 +197,7 @@
  
  <entry>
    <title>Sensational!</title>
-   <link href="http://journal.andrewloe.com//2009/07/22/sensational/"/>
+   <link href="http://journal.andrewloe.com/2009/07/22/sensational/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-07-22T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/07/22/sensational</id>
@@ -207,7 +207,7 @@
  
  <entry>
    <title>ssh + pv + mysql</title>
-   <link href="http://journal.andrewloe.com//2009/05/12/ssh-pv-mysql/"/>
+   <link href="http://journal.andrewloe.com/2009/05/12/ssh-pv-mysql/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-05-12T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/05/12/ssh-pv-mysql</id>
@@ -221,7 +221,7 @@
  
  <entry>
    <title>pv + gzip + mysql</title>
-   <link href="http://journal.andrewloe.com//2009/05/12/pv-gzip-mysql/"/>
+   <link href="http://journal.andrewloe.com/2009/05/12/pv-gzip-mysql/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-05-12T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/05/12/pv-gzip-mysql</id>
@@ -239,7 +239,7 @@
  
  <entry>
    <title>Niskeo: Day 5</title>
-   <link href="http://journal.andrewloe.com//2009/03/30/niskeo-day-5/"/>
+   <link href="http://journal.andrewloe.com/2009/03/30/niskeo-day-5/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-03-30T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/03/30/niskeo-day-5</id>
@@ -249,7 +249,7 @@
  
  <entry>
    <title>Niseko: Day 4</title>
-   <link href="http://journal.andrewloe.com//2009/03/27/niseko-day-4/"/>
+   <link href="http://journal.andrewloe.com/2009/03/27/niseko-day-4/"/>
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-03-27T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/03/27/niseko-day-4</id>
