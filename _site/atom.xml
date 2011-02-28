@@ -5,13 +5,25 @@
  <link href="http://journal.andrewloe.com/atom.xml" rel="self"/>
  <link href="http://journal.andrewloe.com"/>
  <link rel="license" type="/application/rdf+xml" href="http://creativecommons.org/licenses/by-nc-sa/3.0/rdf" />
- <updated>2011-02-01T14:20:56-08:00</updated>
+ <updated>2011-02-27T20:55:48-08:00</updated>
  <id>http://journal.andrewloe.com</id>
  <author>
      <name>W. Andrew Loe III</name>
      <email>andrew@andrewloe.com</email>
  </author>
 
+ 
+ <entry>
+   <title>La Ventana</title>
+   <link href="http://journal.andrewloe.com/2011/02/27/la-ventana/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2011-02-27T00:00:00-08:00</updated>
+   <id>http://journal.andrewloe.com//2011/02/27/la-ventana</id>
+   <content type="html">&lt;p&gt;Kiteboarding in La Ventana, BCS, Mexico.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-02-27/16005601_3BZVq#1200728264_KMTT3&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-02-27/P1000092/1200728264_KMTT3-L.jpg&quot; height=&quot;600&quot; width=&quot;450&quot; alt=&quot;Kiting&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Whistler Pow</title>
@@ -21,7 +33,8 @@
    <id>http://journal.andrewloe.com//2011/01/30/whistler-pow</id>
    <content type="html">&lt;p&gt;Fantastic sunny day on Whistler.&lt;/p&gt;
 
-&lt;p&gt;&lt;object width=&quot;640&quot; height=&quot;360&quot; &gt;&lt;param name=&quot;movie&quot; value=&quot;http://cdn.smugmug.com/ria/ShizVidz-2010102501.swf&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;flashVars&quot; value=&quot;s=ZT0xJmk9MTE3NDI4NDc0OSZrPXRwYjVEJmE9MTU2NjAyMDlfZ1dnV0EmdT13YWxvZWlpaQ==&quot; /&gt;&lt;embed src=&quot;http://cdn.smugmug.com/ria/ShizVidz-2010102501.swf&quot; flashVars=&quot;s=ZT0xJmk9MTE3NDI4NDc0OSZrPXRwYjVEJmE9MTU2NjAyMDlfZ1dnV0EmdT13YWxvZWlpaQ==&quot; width=&quot;640&quot; height=&quot;360&quot; type=&quot;application/x-shockwave-flash&quot; allowFullScreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+&lt;object width=&quot;640&quot; height=&quot;360&quot; &gt;&lt;param name=&quot;movie&quot; value=&quot;http://cdn.smugmug.com/ria/ShizVidz-2010102501.swf&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;flashVars&quot; value=&quot;s=ZT0xJmk9MTE3NDI4NDc0OSZrPXRwYjVEJmE9MTU2NjAyMDlfZ1dnV0EmdT13YWxvZWlpaQ==&quot; /&gt;&lt;embed src=&quot;http://cdn.smugmug.com/ria/ShizVidz-2010102501.swf&quot; flashVars=&quot;s=ZT0xJmk9MTE3NDI4NDc0OSZrPXRwYjVEJmE9MTU2NjAyMDlfZ1dnV0EmdT13YWxvZWlpaQ==&quot; width=&quot;640&quot; height=&quot;360&quot; type=&quot;application/x-shockwave-flash&quot; allowFullScreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+
 
 &lt;p&gt;Tunes: Teddybears &amp;ndash; Punkrocker (Feat. Iggy Pop)&lt;/p&gt;
 </content>
@@ -35,7 +48,8 @@
    <id>http://journal.andrewloe.com//2011/01/09/sunday-funday</id>
    <content type="html">&lt;p&gt;Sunday Funday!&lt;/p&gt;
 
-&lt;p&gt;&lt;object width=&quot;640&quot; height=&quot;360&quot; &gt;&lt;param name=&quot;movie&quot; value=&quot;http://cdn.smugmug.com/ria/ShizVidz-2010102501.swf&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;flashVars&quot; value=&quot;s=ZT0xJmk9MTE1MjM5MDM1OCZrPWlaVXN5JmE9MTUzOTc2MTJfVFozb1UmdT13YWxvZWlpaQ==&quot; /&gt;&lt;embed src=&quot;http://cdn.smugmug.com/ria/ShizVidz-2010102501.swf&quot; flashVars=&quot;s=ZT0xJmk9MTE1MjM5MDM1OCZrPWlaVXN5JmE9MTUzOTc2MTJfVFozb1UmdT13YWxvZWlpaQ==&quot; width=&quot;640&quot; height=&quot;360&quot; type=&quot;application/x-shockwave-flash&quot; allowFullScreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+&lt;object width=&quot;640&quot; height=&quot;360&quot; &gt;&lt;param name=&quot;movie&quot; value=&quot;http://cdn.smugmug.com/ria/ShizVidz-2010102501.swf&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;flashVars&quot; value=&quot;s=ZT0xJmk9MTE1MjM5MDM1OCZrPWlaVXN5JmE9MTUzOTc2MTJfVFozb1UmdT13YWxvZWlpaQ==&quot; /&gt;&lt;embed src=&quot;http://cdn.smugmug.com/ria/ShizVidz-2010102501.swf&quot; flashVars=&quot;s=ZT0xJmk9MTE1MjM5MDM1OCZrPWlaVXN5JmE9MTUzOTc2MTJfVFozb1UmdT13YWxvZWlpaQ==&quot; width=&quot;640&quot; height=&quot;360&quot; type=&quot;application/x-shockwave-flash&quot; allowFullScreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+
 
 &lt;p&gt;Tunes: La Roux &amp;ndash; Quicksand&lt;/p&gt;
 </content>
@@ -49,7 +63,8 @@
    <id>http://journal.andrewloe.com//2011/01/08/first-video</id>
    <content type="html">&lt;p&gt;Lets see how this goes!&lt;/p&gt;
 
-&lt;p&gt;&lt;object width=&quot;640&quot; height=&quot;360&quot; &gt;&lt;param name=&quot;movie&quot; value=&quot;http://cdn.smugmug.com/ria/ShizVidz-2010102501.swf&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;flashVars&quot; value=&quot;s=ZT0xJmk9MTE1MjI4MjMzNCZrPVpqU0F0JmE9MTUzOTYwODFfQzlEdkMmdT13YWxvZWlpaQ==&quot; /&gt;&lt;embed src=&quot;http://cdn.smugmug.com/ria/ShizVidz-2010102501.swf&quot; flashVars=&quot;s=ZT0xJmk9MTE1MjI4MjMzNCZrPVpqU0F0JmE9MTUzOTYwODFfQzlEdkMmdT13YWxvZWlpaQ==&quot; width=&quot;640&quot; height=&quot;360&quot; type=&quot;application/x-shockwave-flash&quot; allowFullScreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+&lt;object width=&quot;640&quot; height=&quot;360&quot; &gt;&lt;param name=&quot;movie&quot; value=&quot;http://cdn.smugmug.com/ria/ShizVidz-2010102501.swf&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;flashVars&quot; value=&quot;s=ZT0xJmk9MTE1MjI4MjMzNCZrPVpqU0F0JmE9MTUzOTYwODFfQzlEdkMmdT13YWxvZWlpaQ==&quot; /&gt;&lt;embed src=&quot;http://cdn.smugmug.com/ria/ShizVidz-2010102501.swf&quot; flashVars=&quot;s=ZT0xJmk9MTE1MjI4MjMzNCZrPVpqU0F0JmE9MTUzOTYwODFfQzlEdkMmdT13YWxvZWlpaQ==&quot; width=&quot;640&quot; height=&quot;360&quot; type=&quot;application/x-shockwave-flash&quot; allowFullScreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+
 
 &lt;p&gt;Tunes: Ladyhawke &amp;ndash; My Delirium&lt;/p&gt;
 </content>
@@ -128,7 +143,8 @@
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2010-03-03T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2010/03/03/let-s-go-get-lost</id>
-   <content type="html">&lt;p&gt;&lt;object width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/_WZjOcoCWdk&amp;hl=en_US&amp;fs=1&amp;hd=1&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/_WZjOcoCWdk&amp;hl=en_US&amp;fs=1&amp;hd=1&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+   <content type="html">&lt;object width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/_WZjOcoCWdk&amp;hl=en_US&amp;fs=1&amp;hd=1&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/_WZjOcoCWdk&amp;hl=en_US&amp;fs=1&amp;hd=1&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+
 
 &lt;p&gt;The incredibly catchy tune is Sushi by Kyle Andrews.&lt;/p&gt;
 </content>
@@ -221,7 +237,8 @@
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-08-24T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/08/24/505-worlds</id>
-   <content type="html">&lt;p&gt;&lt;object width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/X5qY7FM1Lao&amp;hl=en&amp;fs=1&amp;hd=1&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/X5qY7FM1Lao&amp;hl=en&amp;fs=1&amp;hd=1&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+   <content type="html">&lt;object width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/X5qY7FM1Lao&amp;hl=en&amp;fs=1&amp;hd=1&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/X5qY7FM1Lao&amp;hl=en&amp;fs=1&amp;hd=1&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+
 
 &lt;p&gt;Good luck &lt;a href=&quot;http://johnloe.com/&quot;&gt;John&lt;/a&gt; &amp;amp; Craig!&lt;/p&gt;
 </content>
@@ -243,21 +260,8 @@
    <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
    <updated>2009-07-22T00:00:00-07:00</updated>
    <id>http://journal.andrewloe.com//2009/07/22/sensational</id>
-   <content type="html">&lt;p&gt;&lt;object width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/HxN33qW-n4E&amp;hl=en&amp;fs=1&amp;&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/HxN33qW-n4E&amp;hl=en&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>ssh + pv + mysql</title>
-   <link href="http://journal.andrewloe.com/2009/05/12/ssh-pv-mysql/"/>
-   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
-   <updated>2009-05-12T00:00:00-07:00</updated>
-   <id>http://journal.andrewloe.com//2009/05/12/ssh-pv-mysql</id>
-   <content type="html">&lt;p&gt;This is a good one courtesy of &lt;a href=&quot;http://wuputah.com/&quot;&gt;Jonathan Dance&lt;/a&gt;.&lt;/p&gt;
+   <content type="html">&lt;object width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/HxN33qW-n4E&amp;hl=en&amp;fs=1&amp;&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/HxN33qW-n4E&amp;hl=en&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
 
-&lt;p&gt;&lt;code&gt;ssh -C gateway ssh -C database-server mysqldump -u root -pPASSWORD database | pv | mysql -u root database&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;-C&lt;/code&gt; flag does ssh compression.&lt;/p&gt;
 </content>
  </entry>
  
