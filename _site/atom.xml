@@ -5,7 +5,7 @@
  <link href="http://journal.andrewloe.com/atom.xml" rel="self"/>
  <link href="http://journal.andrewloe.com"/>
  <link rel="license" type="/application/rdf+xml" href="http://creativecommons.org/licenses/by-nc-sa/3.0/rdf" />
- <updated>2011-03-20T23:14:23-07:00</updated>
+ <updated>2011-03-20T23:18:49-07:00</updated>
  <id>http://journal.andrewloe.com</id>
  <author>
      <name>W. Andrew Loe III</name>
@@ -21,9 +21,22 @@
    <id>http://journal.andrewloe.com//2011/03/20/stevens-pass</id>
    <content type="html">&lt;p&gt;Snowboarding at Stevens Pass, Washingon.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2011-03-19/16276983_MSNq4#1222921161_f2MTG&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2011-03-19/P1000281/1222921161_f2MTG-L.jpg&quot; width=&quot;450&quot; height=&quot;600&quot; alt=&quot;Pow!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2011-03-19/16276983_MSNq4#1222920736_CYh3M&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2011-03-19/P1000279/1222920736_CYh3M-L.jpg&quot; width=&quot;600&quot; height=&quot;450&quot; alt=&quot;Sun!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2011-03-19/16276983_MSNq4#1222921161_f2MTG&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2011-03-19/P1000281/1222921161_f2MTG-L.jpg&quot; width=&quot;450&quot; height=&quot;600&quot; alt=&quot;Pow!&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Backroll!</title>
+   <link href="http://journal.andrewloe.com/2011/03/05/backroll/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2011-03-05T00:00:00-08:00</updated>
+   <id>http://journal.andrewloe.com//2011/03/05/backroll</id>
+   <content type="html">&lt;object width=&quot;640&quot; height=&quot;360&quot; &gt;&lt;param name=&quot;movie&quot; value=&quot;http://cdn.smugmug.com/ria/ShizVidz-2011030702.swf&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;flashVars&quot; value=&quot;s=ZT0xJmk9MTIxMTA4NDE2NyZrPVFqY1liJmE9MTYxMjYwMTRfTndxWDcmdT13YWxvZWlpaQ==&quot; /&gt;&lt;embed src=&quot;http://cdn.smugmug.com/ria/ShizVidz-2011030702.swf&quot; flashVars=&quot;s=ZT0xJmk9MTIxMTA4NDE2NyZrPVFqY1liJmE9MTYxMjYwMTRfTndxWDcmdT13YWxvZWlpaQ==&quot; width=&quot;640&quot; height=&quot;360&quot; type=&quot;application/x-shockwave-flash&quot; allowFullScreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
+
+
+&lt;p&gt;Tunes: Santigold &amp;ndash; L.E.S. Artistes&lt;/p&gt;
 </content>
  </entry>
  
@@ -255,16 +268,6 @@
 
 
 &lt;p&gt;Good luck &lt;a href=&quot;http://johnloe.com/&quot;&gt;John&lt;/a&gt; &amp;amp; Craig!&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>N00b Boyfriend</title>
-   <link href="http://journal.andrewloe.com/2009/08/20/n00b-boyfriend/"/>
-   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
-   <updated>2009-08-20T00:00:00-07:00</updated>
-   <id>http://journal.andrewloe.com//2009/08/20/n00b-boyfriend</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.collegehumor.com/video:1917993&quot;&gt;http://www.collegehumor.com/video:1917993&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
