@@ -5,13 +5,26 @@
  <link href="http://journal.andrewloe.com/atom.xml" rel="self"/>
  <link href="http://journal.andrewloe.com"/>
  <link rel="license" type="/application/rdf+xml" href="http://creativecommons.org/licenses/by-nc-sa/3.0/rdf" />
- <updated>2011-05-16T18:12:13-07:00</updated>
+ <updated>2011-08-09T14:40:23-07:00</updated>
  <id>http://journal.andrewloe.com</id>
  <author>
      <name>W. Andrew Loe III</name>
      <email>andrew@andrewloe.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Rufus, Oregon</title>
+   <link href="http://journal.andrewloe.com/2011/08/07/rufus/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2011-08-07T00:00:00-07:00</updated>
+   <id>http://journal.andrewloe.com//2011/08/07/rufus</id>
+   <content type="html">&lt;iframe frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;http://api.smugmug.com/services/embed/1423141372_wjSSgKW?width=640&amp;height=360&quot;&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;Tunes: Chiddy Bang &amp;ndash; Opposite Of Adults &amp;amp; Here We Go (feat. Q-Tip)&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Stevens Pass</title>
@@ -255,19 +268,6 @@
    <updated>2010-01-02T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2010/01/02/happy-new-year</id>
    <content type="html">&lt;p&gt;I shall endeavor to return to traditional blogging this year. I have been very busy on &lt;a href=&quot;http://twitter.com/waloeiii&quot;&gt;Twitter.com/WALoeIII&lt;/a&gt; recently.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>505 Worlds</title>
-   <link href="http://journal.andrewloe.com/2009/08/24/505-worlds/"/>
-   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
-   <updated>2009-08-24T00:00:00-07:00</updated>
-   <id>http://journal.andrewloe.com//2009/08/24/505-worlds</id>
-   <content type="html">&lt;object width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/X5qY7FM1Lao&amp;hl=en&amp;fs=1&amp;hd=1&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/X5qY7FM1Lao&amp;hl=en&amp;fs=1&amp;hd=1&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;853&quot; height=&quot;505&quot;&gt;&lt;/embed&gt;&lt;/object&gt;
-
-
-&lt;p&gt;Good luck &lt;a href=&quot;http://johnloe.com/&quot;&gt;John&lt;/a&gt; &amp;amp; Craig!&lt;/p&gt;
 </content>
  </entry>
  
