@@ -14,7 +14,7 @@ Day 2: Blackcomb was host for the day. With our legs warmed up, John and I check
 <p>Pop!
 <a href="http://gallery.andrewloe.com/Snowboarding/2009-02-12/"><img src="http://gallery.andrewloe.com/Snowboarding/2009-02-12/P2120024/823285463_yX5Nr-L.jpg" height="480" width="640" alt="Pop" /></a></p>
 
-Day 3: The prettiest day of the trip. Everyone was able to experience the new <a href="http://www.peak2peakgondola.com/">Peak 2 Peak Gondola</a> during the ideal weather. John and I checked out the excellent parks on Blackcomb, including the pipe and the kiddie rail garden. We had an tasty chili with Fritos for dinner before heading out to the Village for some aprés ski drinks and music.
+Day 3: The prettiest day of the trip. Everyone was able to experience the new <a href="http://www.peak2peakgondola.com/">Peak 2 Peak Gondola</a> during the ideal weather. John and I checked out the excellent parks on Blackcomb, including the pipe and the kiddie rail garden. We had an tasty chili with Fritos for dinner before heading out to the Village for some apres ski drinks and music.
 
 <p>The Village:
 <a href="http://gallery.andrewloe.com/Snowboarding/2009-02-13/"><img src="http://gallery.andrewloe.com/Snowboarding/2009-02-13/P2130129/823287407_5SMsV-L.jpg" height="480" width="640" alt="The Town" /></a></p>

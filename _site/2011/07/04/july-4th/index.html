@@ -2,7 +2,7 @@
 <html>
  
 <head>
-  <title>Convert your Rails application database to UTF-8 &mdash; W. Andrew Loe III: Journal</title>
+  <title>July 4th in Oregon &mdash; W. Andrew Loe III: Journal</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
   <meta name="author" content="W. Andrew Loe III">
   <meta name="generator" content="jekyll">
@@ -97,42 +97,24 @@
 
   <div class="post">
 
-    <h2>Convert your Rails application database to UTF-8</h2>
+    <h2>July 4th in Oregon</h2>
 
-    <p class="pubdate">Posted on Wednesday, May 28, 2008</p>
+    <p class="pubdate">Posted on Monday, July 04, 2011</p>
 
-    <p>Its unlikely that this will ever matter in local development, but its good practice to have your environment properly setup.</p>
-
-<p>Dump your database to a file:<br />
-<code>$ mysqldump -u root --skip-set-charset project_development &gt; project_development.sql</code></p>
-
-<p>Note: If you are using <a href="http://macports.com/">MacPorts</a> for your mysql installation, <code>mysqldump</code> will be <code>mysqldump5</code>.</p>
-
-<p>Remove the character sets from the table definitions: (be careful if have the phrase &lsquo; DEFAULT CHARSET=latin1&rsquo; in your data it will be removed!)<br />
-<code>$ sed 's/ DEFAULT CHARSET=latin1//' project_development.sql</code></p>
-
-<p>Convert the characters in that file from latin1 to UTF-8 using <a href="http://www.gnu.org/software/libiconv/">iconv</a>:<br />
-<code>$ iconv -f latin1 -t UTF-8 project_development.sql &gt; project_development_utf8.sql</code></p>
-
-<p>Drop your existing database and recreate it with the appropriate defaults:<br />
-<code>$ mysql -u root --execute="drop database project_development; create database project_development character set utf8 collate utf8_general_ci;"</code></p>
-
-<p>Repopulate your database with your converted data:<br />
-<code>$ mysql -u root project_development &lt; project_development_utf8.sql</code></p>
-
-<p>Don&rsquo;t forget to add the encoding to your database.yml!<br /></p>
-
-<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">development</span><span class="p-Indicator">:</span>
-  <span class="l-Scalar-Plain">adapter</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">mysql</span>
-  <span class="l-Scalar-Plain">database</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">project_development</span>
-  <span class="l-Scalar-Plain">username</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">root</span>
-  <span class="l-Scalar-Plain">password</span><span class="p-Indicator">:</span> 
-  <span class="l-Scalar-Plain">host</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">localhost</span>
-  <span class="l-Scalar-Plain">encoding</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">utf8</span>
-</code></pre>
-</div>
+    <p>Mallory and I:<br />
+<a href="http://gallery.andrewloe.com/Kiteboarding/2011-07-04/17946837_v4X7zG#1374201155_2wHrKsh-A-LB" title="P1000441"><img src="http://gallery.andrewloe.com/Kiteboarding/2011-07-04/i-2wHrKsh/0/L/P1000441-L.jpg" title="P1000441" alt="P1000441"></a></p>
 
 
+
+
+<p>Nucci looking dapper:<br />
+<a href="http://gallery.andrewloe.com/Kiteboarding/2011-07-04/17946837_v4X7zG#1374201472_jQwkmsw-A-LB" title="P1000443"><img src="http://gallery.andrewloe.com/Kiteboarding/2011-07-04/i-jQwkmsw/0/L/P1000443-L.jpg" title="P1000443" alt="P1000443"></a></p>
+
+
+
+
+<p>Wave Riding on Sunset Beach:<br />
+<iframe frameborder="0" scrolling="no" width="640" height="360" src="http://api.smugmug.com/services/embed/1627996964_Ls4ZdWJ?width=640&height=360"></iframe></p>
 
 
 
@@ -140,11 +122,11 @@
 
 <div class="paginator">
   
-    <div class="previous">&larr; <a class="previous" href="/2008/05/24/pork-and-beans/" title="Previous post: Pork and Beans">Pork and Beans</a></div>
+    <div class="previous">&larr; <a class="previous" href="/2011/03/20/stevens-pass/" title="Previous post: Stevens Pass">Stevens Pass</a></div>
   
   
   
-    <div class="next"><a class="next" href="/2008/06/21/sunshine/" title="Next post: Sunshine!">Sunshine!</a> &rarr;</div>
+    <div class="next"><a class="next" href="/2011/08/07/rufus/" title="Next post: Rufus, Oregon">Rufus, Oregon</a> &rarr;</div>
   
 </div>
 

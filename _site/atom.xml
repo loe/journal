@@ -5,7 +5,7 @@
  <link href="http://journal.andrewloe.com/atom.xml" rel="self"/>
  <link href="http://journal.andrewloe.com"/>
  <link rel="license" type="/application/rdf+xml" href="http://creativecommons.org/licenses/by-nc-sa/3.0/rdf" />
- <updated>2011-08-09T14:40:23-07:00</updated>
+ <updated>2011-12-11T23:15:36-08:00</updated>
  <id>http://journal.andrewloe.com</id>
  <author>
      <name>W. Andrew Loe III</name>
@@ -23,6 +23,30 @@
 
 
 &lt;p&gt;Tunes: Chiddy Bang &amp;ndash; Opposite Of Adults &amp;amp; Here We Go (feat. Q-Tip)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>July 4th in Oregon</title>
+   <link href="http://journal.andrewloe.com/2011/07/04/july-4th/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2011-07-04T00:00:00-07:00</updated>
+   <id>http://journal.andrewloe.com//2011/07/04/july-4th</id>
+   <content type="html">&lt;p&gt;Mallory and I:&lt;br /&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-07-04/17946837_v4X7zG#1374201155_2wHrKsh-A-LB&quot; title=&quot;P1000441&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-07-04/i-2wHrKsh/0/L/P1000441-L.jpg&quot; title=&quot;P1000441&quot; alt=&quot;P1000441&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Nucci looking dapper:&lt;br /&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-07-04/17946837_v4X7zG#1374201472_jQwkmsw-A-LB&quot; title=&quot;P1000443&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-07-04/i-jQwkmsw/0/L/P1000443-L.jpg&quot; title=&quot;P1000443&quot; alt=&quot;P1000443&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Wave Riding on Sunset Beach:&lt;br /&gt;
+&lt;iframe frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;http://api.smugmug.com/services/embed/1627996964_Ls4ZdWJ?width=640&amp;height=360&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
 </content>
  </entry>
  
@@ -243,6 +267,8 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
+
+
 </content>
  </entry>
  
@@ -258,16 +284,6 @@
 
 
 &lt;p&gt;&lt;span class=&quot;powered_by_onehub&quot;&gt;Powered by &lt;a href=&quot;http://onehub.com/&quot;&gt;Onehub&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Happy New Year!</title>
-   <link href="http://journal.andrewloe.com/2010/01/02/happy-new-year/"/>
-   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
-   <updated>2010-01-02T00:00:00-08:00</updated>
-   <id>http://journal.andrewloe.com//2010/01/02/happy-new-year</id>
-   <content type="html">&lt;p&gt;I shall endeavor to return to traditional blogging this year. I have been very busy on &lt;a href=&quot;http://twitter.com/waloeiii&quot;&gt;Twitter.com/WALoeIII&lt;/a&gt; recently.&lt;/p&gt;
 </content>
  </entry>
  
