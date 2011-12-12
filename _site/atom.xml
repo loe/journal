@@ -5,13 +5,41 @@
  <link href="http://journal.andrewloe.com/atom.xml" rel="self"/>
  <link href="http://journal.andrewloe.com"/>
  <link rel="license" type="/application/rdf+xml" href="http://creativecommons.org/licenses/by-nc-sa/3.0/rdf" />
- <updated>2011-12-11T23:16:33-08:00</updated>
+ <updated>2011-12-11T23:52:51-08:00</updated>
  <id>http://journal.andrewloe.com</id>
  <author>
      <name>W. Andrew Loe III</name>
      <email>andrew@andrewloe.com</email>
  </author>
 
+ 
+ <entry>
+   <title>A Very Ventana Thanksgiving</title>
+   <link href="http://journal.andrewloe.com/2011/11/28/ventana-thanksgiving/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2011-11-28T00:00:00-08:00</updated>
+   <id>http://journal.andrewloe.com//2011/11/28/ventana-thanksgiving</id>
+   <content type="html">&lt;p&gt;Wave Butter:&lt;br&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-11-23/20342842_SdcvHt#1617984161_XspR8L2-A-LB&quot; title=&quot;Photo &amp; Video Sharing by SmugMug&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-11-23/i-XspR8L2/0/L/IMG7314-L.jpg&quot; title=&quot;Photo &amp; Video Sharing by SmugMug&quot; alt=&quot;Photo &amp; Video Sharing by SmugMug&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;p&gt;Sunset Pop:&lt;br&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-11-23/20342842_SdcvHt#1617978752_PNbM7sV-A-LB&quot; title=&quot;Photo &amp; Video Sharing by SmugMug&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-11-23/i-PNbM7sV/0/L/IMG7196-L.jpg&quot; title=&quot;Photo &amp; Video Sharing by SmugMug&quot; alt=&quot;Photo &amp; Video Sharing by SmugMug&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;My GoPro Line Cam:&lt;br&gt;
+&lt;iframe frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;http://api.smugmug.com/services/embed/1609177795_6zwRr6c?width=640&amp;height=360&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+
+
+
+&lt;p&gt;Everyone GoPro Follow Cam:&lt;br&gt;
+&lt;iframe frameborder=&quot;0&quot; scrolling=&quot;no&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;http://api.smugmug.com/services/embed/1609263863_m43xjqT?width=640&amp;height=360&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Rufus, Oregon</title>
@@ -269,21 +297,6 @@
 
 
 
-</content>
- </entry>
- 
- <entry>
-   <title>Send me files!</title>
-   <link href="http://journal.andrewloe.com/2010/01/04/send-me-files/"/>
-   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
-   <updated>2010-01-04T00:00:00-08:00</updated>
-   <id>http://journal.andrewloe.com//2010/01/04/send-me-files</id>
-   <content type="html">&lt;p&gt;New project I&amp;rsquo;m working on.&lt;/p&gt;
-
-&lt;script src=&quot;//x.onehub.com/dropboxes/obpwd36o/drops/new.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
-
-
-&lt;p&gt;&lt;span class=&quot;powered_by_onehub&quot;&gt;Powered by &lt;a href=&quot;http://onehub.com/&quot;&gt;Onehub&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  

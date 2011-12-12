@@ -1,6 +1,6 @@
 GIT
-  remote: https://github.com/adaoraul/rack-jekyll.git
-  revision: 5a652da00bc5d38f78e67f060063f383efa9071d
+  remote: git://github.com/loe/rack-jekyll.git
+  revision: b946d1a3ad0e444377aeb12531265acbbaf8db8e
   specs:
     rack-jekyll (0.3.7)
       jekyll (~> 0.11.0)
