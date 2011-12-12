@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:loe/rack-jekyll.git
+  remote: git://github.com/loe/rack-jekyll.git
   revision: 007d2be0446a4178f4564605a50d190721b8d66e
   specs:
     rack-jekyll (0.3.7)

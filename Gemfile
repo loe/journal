@@ -1,6 +1,6 @@
 source 'http://rubygems.org/'
 
-gem 'rack-jekyll', :git => 'git@github.com:loe/rack-jekyll.git'
+gem 'rack-jekyll', :git => 'git://github.com/loe/rack-jekyll.git'
 gem 'rack-rewrite'
 
 group :development do
