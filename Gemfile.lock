@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/loe/rack-jekyll.git
-  revision: 007d2be0446a4178f4564605a50d190721b8d66e
+  revision: 80d183da0f28ee26a793f6b8337dfb616673cefc
   specs:
     rack-jekyll (0.3.7)
       jekyll (~> 0.11.0)
