@@ -5,13 +5,27 @@
  <link href="http://journal.andrewloe.com/atom.xml" rel="self"/>
  <link href="http://journal.andrewloe.com"/>
  <link rel="license" type="/application/rdf+xml" href="http://creativecommons.org/licenses/by-nc-sa/3.0/rdf" />
- <updated>2012-02-20T18:35:15-08:00</updated>
+ <updated>2012-02-20T18:39:24-08:00</updated>
  <id>http://journal.andrewloe.com</id>
  <author>
      <name>W. Andrew Loe III</name>
      <email>andrew@andrewloe.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Stevens Pass President's Weekend</title>
+   <link href="http://journal.andrewloe.com/2012/02/19/presidents-weekend/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2012-02-19T00:00:00-08:00</updated>
+   <id>http://journal.andrewloe.com//2012/02/19/presidents-weekend</id>
+   <content type="html">&lt;p&gt;Slash:&lt;br&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2012-02-19/21563440_mW7FMj&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2012-02-19/i-zSjxw2d/0/L/P1010780-L.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
+</content>
+ </entry>
  
  <entry>
    <title>A Very Ventana Thanksgiving</title>
@@ -114,20 +128,6 @@
    <content type="html">&lt;p&gt;Kiteboarding in La Ventana, BCS, Mexico.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://gallery.andrewloe.com/Travel/La-Ventana/16126014_NwqX7#1210712670_V6JzY&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Travel/La-Ventana/P1000092-Version-2/1210712670_V6JzY-L.jpg&quot; height=&quot;600&quot; width=&quot;450&quot; alt=&quot;Kiting&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Stevens Pass President's Weekend</title>
-   <link href="http://journal.andrewloe.com/2011/02/19/presidents-weekend/"/>
-   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
-   <updated>2011-02-19T00:00:00-08:00</updated>
-   <id>http://journal.andrewloe.com//2011/02/19/presidents-weekend</id>
-   <content type="html">&lt;p&gt;Slash:&lt;br&gt;
-&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2012-02-19/21563440_mW7FMj&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2012-02-19/i-zSjxw2d/0/L/P1010780-L.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-
 </content>
  </entry>
  
