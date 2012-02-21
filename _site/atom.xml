@@ -5,7 +5,7 @@
  <link href="http://journal.andrewloe.com/atom.xml" rel="self"/>
  <link href="http://journal.andrewloe.com"/>
  <link rel="license" type="/application/rdf+xml" href="http://creativecommons.org/licenses/by-nc-sa/3.0/rdf" />
- <updated>2011-12-11T23:52:51-08:00</updated>
+ <updated>2012-02-20T18:29:35-08:00</updated>
  <id>http://journal.andrewloe.com</id>
  <author>
      <name>W. Andrew Loe III</name>
@@ -20,11 +20,11 @@
    <updated>2011-11-28T00:00:00-08:00</updated>
    <id>http://journal.andrewloe.com//2011/11/28/ventana-thanksgiving</id>
    <content type="html">&lt;p&gt;Wave Butter:&lt;br&gt;
-&lt;a href=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-11-23/20342842_SdcvHt#1617984161_XspR8L2-A-LB&quot; title=&quot;Photo &amp; Video Sharing by SmugMug&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-11-23/i-XspR8L2/0/L/IMG7314-L.jpg&quot; title=&quot;Photo &amp; Video Sharing by SmugMug&quot; alt=&quot;Photo &amp; Video Sharing by SmugMug&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-11-23/20342842_SdcvHt#1617984161_XspR8L2-A-LB&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-11-23/i-XspR8L2/0/L/IMG7314-L.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
 
 &lt;p&gt;Sunset Pop:&lt;br&gt;
-&lt;a href=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-11-23/20342842_SdcvHt#1617978752_PNbM7sV-A-LB&quot; title=&quot;Photo &amp; Video Sharing by SmugMug&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-11-23/i-PNbM7sV/0/L/IMG7196-L.jpg&quot; title=&quot;Photo &amp; Video Sharing by SmugMug&quot; alt=&quot;Photo &amp; Video Sharing by SmugMug&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-11-23/20342842_SdcvHt#1617978752_PNbM7sV-A-LB&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Kiteboarding/2011-11-23/i-PNbM7sV/0/L/IMG7196-L.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
 
 
@@ -114,6 +114,20 @@
    <content type="html">&lt;p&gt;Kiteboarding in La Ventana, BCS, Mexico.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://gallery.andrewloe.com/Travel/La-Ventana/16126014_NwqX7#1210712670_V6JzY&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Travel/La-Ventana/P1000092-Version-2/1210712670_V6JzY-L.jpg&quot; height=&quot;600&quot; width=&quot;450&quot; alt=&quot;Kiting&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Stevens Pass President's Weekend</title>
+   <link href="http://journal.andrewloe.com/2011/02/19/presidents-weekend/"/>
+   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
+   <updated>2011-02-19T00:00:00-08:00</updated>
+   <id>http://journal.andrewloe.com//2011/02/19/presidents-weekend</id>
+   <content type="html">&lt;p&gt;Slash:&lt;br&gt;
+&lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2012-02-19/21563440_mW7FMj&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2012-02-19/i-zSjxw2d/0/L/P1010780-L.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+
 </content>
  </entry>
  
@@ -256,44 +270,6 @@
 
 &lt;p&gt;Nucci getting a sweet nose press:&lt;br /&gt;
 &lt;a href=&quot;http://gallery.andrewloe.com/Snowboarding/2010-01-31/&quot;&gt;&lt;img src=&quot;http://gallery.andrewloe.com/Snowboarding/2010-01-31/KIF3144/823351179_Wku3k-L.jpg&quot; height=&quot;480&quot; width=&quot;640&quot; alt=&quot;Nucci&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-
-</content>
- </entry>
- 
- <entry>
-   <title>redgreen with autotest and autospec</title>
-   <link href="http://journal.andrewloe.com/2010/01/28/redgreen-with-autotest-and-autospec/"/>
-   <link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" />
-   <updated>2010-01-28T00:00:00-08:00</updated>
-   <id>http://journal.andrewloe.com//2010/01/28/redgreen-with-autotest-and-autospec</id>
-   <content type="html">&lt;p&gt;I use both RSpec and Test/Unit and the accompanying autospec and autotest. I was struggling to get coloring for both without breakage.&lt;/p&gt;
-
-&lt;p&gt;Trick is to only require redgreen/autotest if the RSPEC environmental variable is not set. Here is my ~/.autotest:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;autotest/fsevent&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;autotest/growl&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;redgreen/autotest&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;unless&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;RSPEC&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-
-&lt;span class=&quot;no&quot;&gt;Autotest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Growl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;show_modified_files&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;Autotest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Growl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remote_notification&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;Autotest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Growl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;image_dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ENV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;HOME&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;.autotest-growl&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;no&quot;&gt;Autotest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:initialize&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;at&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sleep&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-  &lt;span class=&quot;sx&quot;&gt;%w{.svn .hg .git vendor}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exception&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_exception&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exception&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)}&lt;/span&gt;
-  
-  &lt;span class=&quot;k&quot;&gt;unless&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ARGV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;empty?&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exist?&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;config/environment.rb&amp;#39;&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_directories&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ARGV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;spec/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ARGV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;first&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;app/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ARGV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;first&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ARGV&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dup&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  
-  &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add_mapping&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;%r%^spec/(processors|mailers|middlewares)/.*rb$%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;filename&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
 
 
 
