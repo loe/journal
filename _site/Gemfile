@@ -1,10 +1,10 @@
 source 'http://rubygems.org/'
 
-gem 'rack-jekyll', :git => 'git://github.com/loe/rack-jekyll.git', :require => 'rack/jekyll'
+gem 'rack-jekyll', :git => 'git://github.com/adaoraul/rack-jekyll.git', :require => 'rack/jekyll'
 gem 'rack-rewrite', :require => 'rack/rewrite'
 
 group :development do
   gem 'jekyll'
-  gem 'liquid', '2.2.2'
+  gem 'liquid'
   gem 'rdiscount'
 end
