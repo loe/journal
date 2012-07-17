@@ -7,5 +7,4 @@ end
 
 use Rack::ConditionalGet
 use Rack::ETag, nil, 'public, max-age=600'
-
 run Rack::Jekyll.new
