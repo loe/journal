@@ -1,12 +1,12 @@
-title: "W. Andrew Loe III: Journal"
-description: "W. Andrew Loe III: Journal"
-url: "http://journal.andrewloe.com"
-author: "W. Andrew Loe III"
-email: "andrew@andrewloe.com"
+title: 'W. Andrew Loe III: Journal'
+description: 'W. Andrew Loe III: Journal'
+url: 'http://journal.andrewloe.com'
+author: 'W. Andrew Loe III'
+email: 'andrew@andrewloe.com'
 
 auto: false
 permalink: pretty
-pygments: true
+pygments: false
 lsi: false
 markdown: rdiscount
 rdiscount:
